@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PSM I Reviewer",
+    "slug": "psm-reviewer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "psmreviewer",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2F6DF6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.psmreviewer.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.psmreviewer.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#2F6DF6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

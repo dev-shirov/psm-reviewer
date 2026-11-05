@@ -1,0 +1,1847 @@
+[
+  {
+    "id": "D1-001",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Scrum's approach to managing work is founded on which type of process control theory?",
+    "options": [
+      "Defined process control, where every step is specified in advance",
+      "Empirical process control, where knowledge comes from experience and decisions are based on what is observed",
+      "Statistical process control, where output variation is managed through control charts",
+      "Deterministic process control, where outcomes are guaranteed by detailed up-front planning"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum is founded on empiricism: knowledge comes from experience and decisions are made on the basis of what is observed. Defined and deterministic control assume the work is predictable enough to specify completely up front, which is not true for complex product work. Statistical control charts are a manufacturing quality technique and are not part of the Scrum framework.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-002",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which set correctly names the three pillars of empiricism in Scrum?",
+    "options": [
+      "Planning, execution, review",
+      "Commitment, focus, courage",
+      "Transparency, inspection, adaptation",
+      "Visibility, measurement, control"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Empiricism in Scrum rests on transparency, inspection and adaptation. Commitment, focus and courage are three of the five Scrum values, not pillars. The other options describe generic management activities that are not defined by the Scrum Guide.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-003",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What does the pillar of transparency primarily require?",
+    "options": [
+      "That the emergent process and the work are visible to those performing the work and those receiving it",
+      "That every team member publishes a daily status report to management",
+      "That all source code repositories are publicly accessible",
+      "That the Scrum Master documents every impediment in a shared tracker"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Transparency means the emergent process and work must be visible to those doing the work and to those receiving the work, so that inspection is meaningful. Status reports, public repositories and impediment trackers are optional practices that may or may not create genuine transparency. Low transparency leads to decisions that diminish value and increase risk.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-004",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is the purpose of the inspection pillar?",
+    "options": [
+      "To allow managers to evaluate individual performance of Scrum Team members",
+      "To verify that the team followed the agreed process steps exactly",
+      "To create an audit trail for compliance purposes",
+      "To detect potentially undesirable variances or problems in the artifacts and progress toward agreed goals"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Scrum artifacts and progress toward agreed goals are inspected frequently and diligently to detect potentially undesirable variances or problems. Inspection is not a performance appraisal of individuals, nor a compliance audit. Inspection without adaptation is considered pointless in Scrum.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-005",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "When should adaptation occur after an inspection reveals that aspects of the process or product are unacceptable?",
+    "options": [
+      "At the start of the next release cycle",
+      "As soon as possible, to minimize further deviation",
+      "Only after management approves the proposed change",
+      "At the next Sprint Retrospective, which is the only place adaptation is allowed"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "When any aspect deviates outside acceptable limits, the process or materials must be adjusted as soon as possible to minimize further deviation. Waiting for a release cycle, an approval, or a specific event delays learning and increases waste. Retrospectives are an important inspect-and-adapt point, but adaptation is not limited to them.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-006",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which option lists the five Scrum values?",
+    "options": [
+      "Commitment, efficiency, openness, respect, discipline",
+      "Collaboration, focus, transparency, respect, courage",
+      "Commitment, focus, openness, respect, courage",
+      "Courage, consistency, openness, responsibility, focus"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The five Scrum values are commitment, focus, openness, respect and courage. Efficiency, discipline, consistency and responsibility are desirable traits but are not Scrum values. Transparency and collaboration are concepts in Scrum, yet transparency is a pillar rather than a value.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-007",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "multiple",
+    "question": "Which two of the following are Scrum values? (Choose two.)",
+    "options": [
+      "Commitment",
+      "Predictability",
+      "Courage",
+      "Documentation",
+      "Utilization"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Commitment and courage are two of the five Scrum values, along with focus, openness and respect. Predictability is an outcome that empiricism can improve, not a value. Documentation and utilization are practices or metrics some organizations emphasize, but Scrum defines neither as a value.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-008",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "How is Scrum best characterized?",
+    "options": [
+      "A complete software development methodology with prescribed engineering techniques",
+      "A lightweight framework that helps people and organizations generate value through adaptive solutions for complex problems",
+      "A project management process that replaces the need for planning",
+      "A maturity model that organizations progress through in defined levels"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Scrum Guide describes Scrum as a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems. It is deliberately incomplete, defining only the parts required to implement Scrum theory, so it is not a full methodology or maturity model. Scrum increases planning rather than removing it, although planning is done continuously rather than only up front.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-009",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is meant by the statement that Scrum is \"simple to understand\" but \"difficult to master\"?",
+    "options": [
+      "The rules require years of study, but applying them is straightforward",
+      "Only certified practitioners can understand the framework correctly",
+      "The framework has few rules, yet consistently living its values and principles in a real environment is demanding",
+      "Teams must master every complementary practice before Scrum can be used"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Scrum's framework is intentionally minimal and can be read in minutes, but applying empiricism, self-management and the Scrum values under real organizational pressure takes sustained practice. Mastery does not come from certification or from adopting a catalogue of complementary practices first. Complementary practices can help, but they are not prerequisites for using Scrum.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-010",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A team decides to skip the Sprint Retrospective permanently because it feels unproductive. What does the Scrum Guide say about this?",
+    "options": [
+      "Scrum's elements are immutable; omitting parts of Scrum renders the result not Scrum and hides problems instead of solving them",
+      "This is acceptable, because Scrum events are optional recommendations",
+      "This is acceptable if the Scrum Master documents the decision",
+      "This is acceptable as long as the Product Owner agrees"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scrum is immutable: while parts can be implemented alongside other techniques, changing the core design or ideas, leaving out elements or not following the rules of Scrum covers up problems and limits the benefits of Scrum. No role, including the Product Owner or Scrum Master, can authorize removing a Scrum event. The correct response is to improve the event rather than eliminate it.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-011",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Scrum combines empiricism with lean thinking. What does lean thinking contribute?",
+    "options": [
+      "A requirement to minimize team size regardless of the work",
+      "A set of statistical tools for forecasting delivery dates",
+      "A focus on reducing waste and concentrating on the essentials",
+      "A mandate to eliminate all documentation"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Lean thinking reduces waste and focuses on the essentials, which complements empiricism by keeping attention on what actually produces value. It does not dictate team size, forbid documentation, or supply forecasting statistics. Scrum keeps documentation and other artifacts only to the extent they add value.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-012",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What kind of problem domain is Scrum designed for?",
+    "options": [
+      "Simple, repeatable work where the same steps produce the same result",
+      "Complex problems where more is unknown than known and requirements change",
+      "Chaotic emergencies that require immediate command-and-control action",
+      "Purely administrative work with fixed, well-understood procedures"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum targets complex adaptive problems, where requirements and technology change and outcomes cannot be fully predicted in advance. Simple, repeatable or purely procedural work is better handled by defined processes. Chaotic situations typically demand immediate stabilizing action rather than an iterative inspect-and-adapt cadence.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-013",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Why does Scrum deliver work iteratively and incrementally?",
+    "options": [
+      "To allow detailed specifications to be written one module at a time",
+      "To reduce the number of meetings required in a project",
+      "To let the team avoid committing to any goal",
+      "To enhance predictability of progress and control risk through frequent feedback"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Scrum employs an iterative, incremental approach to optimize predictability and to control risk, because each Increment creates a real opportunity to inspect and adapt. The approach is not about writing specifications gradually or reducing meetings. Scrum Teams still commit to the Sprint Goal, Product Goal and Definition of Done.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-014",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "multiple",
+    "question": "Which two statements about the Scrum Team are correct? (Choose two.)",
+    "options": [
+      "It is self-managing, deciding internally who does what, when and how",
+      "It is cross-functional, with the members having all skills necessary to create value each Sprint",
+      "It is organized into separate sub-teams for analysis, build and test",
+      "It receives its daily task assignments from the Scrum Master",
+      "It reports its plan to a project manager for approval each Sprint"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Scrum Teams are both cross-functional, holding all the skills needed to create value each Sprint, and self-managing, deciding internally who does what, when and how. There are no sub-teams or hierarchies within a Scrum Team. Neither the Scrum Master nor a project manager assigns daily tasks or approves the team's plan.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-015",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "According to the Agile Manifesto, which item is valued more?",
+    "options": [
+      "Comprehensive documentation over working software",
+      "Contract negotiation over customer collaboration",
+      "Individuals and interactions over processes and tools",
+      "Following a plan over responding to change"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Manifesto values individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. The other options reverse the intended order. The items on the right still have value; those on the left are valued more.",
+    "reference": "Agile Manifesto - Values"
+  },
+  {
+    "id": "D1-016",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "How many principles accompany the four values of the Agile Manifesto?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Agile Manifesto states four values and is accompanied by twelve principles. The principles elaborate the values with guidance such as delivering working software frequently and welcoming changing requirements. The other numbers do not correspond to the published Manifesto.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-017",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which statement best reflects an Agile Manifesto principle about changing requirements?",
+    "options": [
+      "Changing requirements are welcomed, even late in development, for the customer's competitive advantage",
+      "Requirements must be frozen after the design phase to protect the schedule",
+      "Changes are accepted only if they do not affect the agreed scope",
+      "Changes should be deferred to a follow-up project whenever possible"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Manifesto principle states that agile processes welcome changing requirements, even late in development, harnessing change for the customer's competitive advantage. Freezing requirements or deferring change to later projects contradicts this principle. Scrum enables this by allowing the Product Backlog to be refined and re-ordered continuously.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-018",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What does the Scrum value of focus mean for a Scrum Team?",
+    "options": [
+      "Each member concentrates on a single technical specialty",
+      "The team concentrates on the work of the Sprint and on progress toward the Scrum Team's goals",
+      "The team ignores all stakeholder feedback during the Sprint",
+      "The team works only on the highest-ordered Product Backlog item until it is released"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Focus means the team's primary attention is on the work of the Sprint and on making the best possible progress toward its goals. It does not mean narrow specialization, which would undermine cross-functionality. Stakeholder feedback is still welcomed, although the Sprint Goal protects the team from disruptive changes to its focus.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-019",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What does the Scrum value of courage look like in practice?",
+    "options": [
+      "Promising delivery dates that the team cannot realistically meet",
+      "Escalating every disagreement to senior management",
+      "Working overtime whenever the Sprint Goal looks at risk",
+      "Doing the right thing and working on tough problems, including raising uncomfortable truths"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Courage is having the strength to do the right thing and to work on tough problems, which includes saying no, surfacing bad news and challenging the status quo. Overcommitting and working unsustainable hours reflect fear rather than courage. Escalating everything avoids the team's own accountability to resolve issues.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-020",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What does the Scrum value of openness mean?",
+    "options": [
+      "The Scrum Team and its stakeholders are open about the work and the challenges involved",
+      "All team discussions must be open to anyone who wishes to speak at any time",
+      "The team must accept every change request stakeholders propose",
+      "All data about individual team members' productivity is published"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Openness means the Scrum Team and its stakeholders are open about the work and the challenges, which supports transparency. It is not an obligation to accept every request or to publish individual productivity data. Open invitations to interrupt the team would actually undermine focus.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-021",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "multiple",
+    "question": "Which two statements about the Scrum values are true? (Choose two.)",
+    "options": [
+      "They are enforced by the Scrum Master through team policies",
+      "When embodied by the Scrum Team, they bring the pillars of empiricism to life and build trust",
+      "They replace the need for the Definition of Done",
+      "Successful use of Scrum depends on people becoming more proficient in living these values",
+      "They apply only to the Scrum Master and Product Owner"
+    ],
+    "correct": [
+      1,
+      3
+    ],
+    "explanation": "The Scrum values give direction with regard to work, actions and behaviour; living them builds trust and brings the pillars of empiricism to life, and successful use of Scrum depends on people becoming more proficient in them. They are not policies the Scrum Master enforces, and they apply to the whole Scrum Team and the wider organization. The Definition of Done remains essential regardless of values.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-022",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Why does the Scrum Guide describe Scrum as intentionally incomplete?",
+    "options": [
+      "Because the authors intend to publish the missing sections later",
+      "Because it defines only the parts required to implement Scrum theory, leaving practices for teams to choose",
+      "Because organizations are expected to remove the events they dislike",
+      "Because the framework only applies to software development"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum is purposefully incomplete, defining only the parts required to implement Scrum theory and relying on the collective intelligence of the people using it. Teams add complementary practices, but they may not remove Scrum elements. Scrum is also used far beyond software development.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-023",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A stakeholder claims that Scrum's empirical approach means no planning is required. What is the most accurate response?",
+    "options": [
+      "Correct, Scrum replaces planning with daily coordination",
+      "Correct, plans are considered waste in lean thinking",
+      "Incorrect, Scrum plans continuously at multiple horizons and replans as new information emerges",
+      "Incorrect, Scrum requires a complete plan for the whole Product Goal before the first Sprint"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Scrum involves frequent planning: the Product Goal, Product Backlog refinement, Sprint Planning, and daily re-planning in the Daily Scrum. Empiricism changes when and how planning happens, not whether it happens. A complete up-front plan for the whole product would contradict the complexity Scrum addresses.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-024",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "The Product Backlog is partially maintained in a private spreadsheet that only the Product Owner can see. Which pillar is most directly undermined and what is the consequence?",
+    "options": [
+      "Adaptation; the team cannot change the Sprint Goal",
+      "Transparency; inspection of the backlog becomes unreliable and may lead to decisions that diminish value",
+      "Inspection; the Sprint Review cannot take place at all",
+      "Commitment; the team cannot forecast its work"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Hidden work reduces transparency, and inspection based on a low-transparency artifact can create decisions that diminish value and increase risk. Inspection and adaptation still physically occur, but they become unreliable because they rest on an incomplete picture. Commitment is a value, not a pillar.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-025",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Why does the Scrum Guide state that inspection without adaptation is pointless?",
+    "options": [
+      "Because inspection consumes time that should be spent writing code",
+      "Because inspection is only valid when performed by someone outside the team",
+      "Because observing problems creates no improvement unless the process or product is actually adjusted",
+      "Because the Scrum events already guarantee improvement without any action"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Inspection enables adaptation; detecting a variance delivers value only when the team actually adjusts the process or the materials being worked on. External inspectors are not required, as the Scrum Team inspects its own work. Events create opportunities to adapt, but they do not produce improvement by themselves.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-026",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A manager asks the Scrum Master to add a weekly status meeting where the team explains individual task progress to him. What is the Scrum Master's most appropriate consideration?",
+    "options": [
+      "Agree, because management oversight is outside the scope of Scrum",
+      "Refuse all contact between the team and management to protect focus",
+      "Agree, and let the manager assign tasks during the meeting to improve efficiency",
+      "Explore whether the existing Scrum events already provide the transparency the manager needs, and coach the organization on how to get it"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The Scrum Master helps the organization understand empiricism and serves it by removing barriers between stakeholders and the Scrum Team. The Scrum events, Product Backlog and Increment already supply transparency, so an additional status meeting usually signals a transparency gap to address rather than a new meeting to add. Allowing a manager to assign tasks would violate the team's self-management.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-027",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement best describes the relationship between the Scrum values and the pillars of empiricism?",
+    "options": [
+      "The values are optional behaviours; only the pillars are mandatory",
+      "Living the Scrum values builds the trust that makes transparency, inspection and adaptation work",
+      "The pillars replace the values once a team is mature",
+      "The values are a checklist the Scrum Master scores at each Retrospective"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Successful use of Scrum depends on people living the five values; doing so builds trust, and that trust is what makes genuine transparency, honest inspection and real adaptation possible. The values are not optional add-ons, nor something a team outgrows. Scoring individuals against the values as a checklist turns them into a control mechanism rather than shared direction.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-028",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two conditions must hold for inspection to be useful in Scrum? (Choose two.)",
+    "options": [
+      "The artifacts being inspected must be sufficiently transparent",
+      "Inspection must be performed by an independent quality department",
+      "Inspection must be followed by adaptation when a variance is found",
+      "Inspection must happen only at the end of a release",
+      "A written inspection report must be produced for each event"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Inspection depends on transparency, because inspecting a distorted artifact produces misleading conclusions, and it must lead to adaptation, otherwise it is pointless. Scrum does not require an independent inspection body or formal reports. Inspection is frequent and diligent, not deferred to release boundaries.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-029",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A new Scrum Team keeps its Sprint length at four weeks but produces a tested Increment only in the final two days. What risk does this create for empiricism?",
+    "options": [
+      "None, as long as the Increment is complete by the Sprint Review",
+      "The Product Owner loses the right to cancel the Sprint",
+      "Feedback and risk discovery are concentrated at the very end, reducing the opportunities to inspect and adapt during the Sprint",
+      "The Definition of Done becomes the responsibility of the Scrum Master"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Empiricism improves when work becomes inspectable early and often; batching integration and testing to the end hides problems until little time remains to adapt. Multiple Increments may be created within a Sprint, and integrating continuously surfaces risk sooner. Sprint cancellation authority and ownership of the Definition of Done are unaffected by this practice.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-030",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Agile Manifesto principle most directly supports Scrum's use of a self-managing Scrum Team?",
+    "options": [
+      "Working software is the primary measure of progress",
+      "Simplicity, the art of maximizing the amount of work not done, is essential",
+      "Continuous attention to technical excellence and good design enhances agility",
+      "Build projects around motivated individuals, give them the environment and support they need, and trust them to get the job done"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Trusting motivated individuals with the environment and support they need is the principle that underpins self-management. The principles about working software, technical excellence and simplicity support other aspects of Scrum such as the Increment, the Definition of Done and lean thinking. The best architectures, requirements and designs emerging from self-organizing teams is a closely related principle.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-031",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During the Sprint, a senior architect outside the Scrum Team dictates how the Developers must implement a Product Backlog item. Which Scrum concept is most clearly violated?",
+    "options": [
+      "Self-management, because the Developers decide how to turn Product Backlog items into Increments",
+      "Transparency, because the architect was not present at Sprint Planning",
+      "The Definition of Done, because external input invalidates it",
+      "Time-boxing, because external reviews extend the Sprint"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Developers are accountable for creating a plan for the Sprint and for deciding how the work is done, so externally imposed implementation decisions undermine self-management. Seeking advice from an architect is perfectly acceptable; being commanded is not. The Definition of Done and the Sprint time-box are not changed by this situation.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-032",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the best interpretation of \"cross-functional\" for a Scrum Team?",
+    "options": [
+      "Every member can perform every task to the same standard",
+      "The team collectively has all the skills needed to create value each Sprint without depending on others outside the team",
+      "The team contains one representative from each functional department",
+      "The team rotates members between departments every Sprint"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Cross-functional means the team members collectively hold all the skills needed to create value each Sprint, not that each person is identically skilled. A team of departmental delegates who still depend on their home departments for approvals is not truly cross-functional. Rotation is a practice some organizations use, but it is not what the term means.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-033",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two behaviours demonstrate the Scrum value of respect? (Choose two.)",
+    "options": [
+      "Treating fellow Scrum Team members as capable, independent people",
+      "Avoiding all disagreement to keep the team comfortable",
+      "Valuing the different skills and perspectives stakeholders bring",
+      "Never questioning a decision made by the Product Owner",
+      "Allowing only senior members to speak in Scrum events"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Respect means Scrum Team members respect each other as capable, independent people and respect the contributions of those they work with. Suppressing disagreement or deference to seniority is conflict avoidance, not respect, and conflicts with courage and openness. Respecting the Product Owner's accountability does not prevent the team from challenging decisions constructively.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-034",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization adopts Scrum but keeps separate analysis, development and testing teams that hand work to each other across Sprints. What is the main problem from a Scrum theory perspective?",
+    "options": [
+      "The Sprint length will need to be shorter than two weeks",
+      "The Product Owner will have too many Product Backlog items to order",
+      "No single team is cross-functional enough to produce a usable Increment each Sprint, so empirical feedback is delayed",
+      "The Scrum Master cannot facilitate more than one team"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Handoffs between functional silos prevent any team from delivering a Done, usable Increment within a Sprint, which removes the feedback loop that empiricism depends on. Sprint length and backlog size are secondary concerns here. A Scrum Master may serve more than one team, so that is not the core issue.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-035",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "How should a Scrum Team treat complementary practices such as user stories, planning poker or burndown charts?",
+    "options": [
+      "They are mandatory elements of Scrum defined in the Scrum Guide",
+      "They are optional techniques that may be used within the framework as long as Scrum's rules remain intact",
+      "They must be approved by Scrum.org before use",
+      "They may replace Scrum events when the team finds them more efficient"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum is deliberately incomplete, so various processes, techniques and methods can be employed within the framework. None of those practices is defined by the Scrum Guide, and none may be used to remove or replace Scrum's events, accountabilities or artifacts. No external approval body governs their use.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-036",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What is an Increment in Scrum?",
+    "options": [
+      "A concrete stepping stone toward the Product Goal that meets the Definition of Done and is usable",
+      "A detailed design document produced at the end of the Sprint",
+      "The sum of all tasks completed by the Developers during the Sprint",
+      "A demonstration prepared for the Sprint Review"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "An Increment is a concrete stepping stone toward the Product Goal; each Increment is additive to all prior Increments, verified and usable, and work only counts as part of an Increment when it meets the Definition of Done. Completed tasks or design documents that do not produce usable value are not Increments. A demonstration is an activity, not the Increment itself.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-037",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which statement about the Sprint best reflects iterative and incremental delivery?",
+    "options": [
+      "Each Sprint produces documentation that is integrated at the end of the project",
+      "Each Sprint delivers at least one usable Increment, allowing inspection and adaptation of the product",
+      "Each Sprint is dedicated to one phase, such as design or testing",
+      "Each Sprint ends with a release to production, which is mandatory"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Each Sprint produces one or more usable Increments, which makes real product feedback possible at least once per Sprint. Phase-based Sprints recreate a sequential process and delay feedback. Releasing to production is possible at any time but is a Product Owner decision, not a Scrum requirement at Sprint end.",
+    "reference": "Scrum Guide 2020 - The Sprint"
+  },
+  {
+    "id": "D1-038",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which Agile Manifesto principle relates most directly to sustainable work practices?",
+    "options": [
+      "Deliver working software frequently, from a couple of weeks to a couple of months",
+      "The most efficient method of conveying information is face-to-face conversation",
+      "Agile processes promote sustainable development; sponsors, developers and users should be able to maintain a constant pace indefinitely",
+      "At regular intervals, the team reflects on how to become more effective"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The sustainable pace principle states that sponsors, developers and users should be able to maintain a constant pace indefinitely. The other principles are genuine Manifesto principles but address delivery cadence, communication and reflection respectively. Scrum supports sustainable pace through a consistent Sprint cadence and team-owned forecasts.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-039",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "What does the Scrum value of commitment refer to?",
+    "options": [
+      "Committing to deliver every Product Backlog item forecast in Sprint Planning",
+      "Committing to fixed scope, time and cost before the Sprint begins",
+      "Committing to the hours each person will work during the Sprint",
+      "Committing to achieving the Scrum Team's goals and to supporting each other"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Commitment means Scrum Team members personally commit to achieving the goals of the Scrum Team and to supporting one another. It is not a guarantee of a fixed scope, a fixed triple constraint, or a number of hours. The Sprint Backlog contains a forecast of functionality, while the Sprint Goal is the commitment.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-040",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Which artifact commitment exists to provide transparency about the quality of the Increment?",
+    "options": [
+      "The Product Goal",
+      "The Definition of Done",
+      "The Sprint Goal",
+      "The Sprint Backlog forecast"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Definition of Done is the Increment's commitment and creates transparency by giving everyone a shared understanding of what work is completed. The Product Goal commits the Product Backlog, and the Sprint Goal commits the Sprint Backlog. A forecast is part of the Sprint Backlog, not a commitment.",
+    "reference": "Scrum Guide 2020 - Scrum Artifacts"
+  },
+  {
+    "id": "D1-041",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Why does Scrum prescribe events of fixed maximum duration held at a regular cadence?",
+    "options": [
+      "To make it easier for managers to schedule team members' calendars",
+      "To create regularity and minimize the need for meetings not defined in Scrum",
+      "To ensure the team spends a fixed percentage of time in discussion",
+      "To guarantee that every Sprint delivers the same amount of work"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum's prescribed events create regularity and minimize the need for meetings not defined in Scrum, while each event is a formal opportunity to inspect and adapt. The cadence exists for empiricism, not for calendar convenience or quota-based discussion time. Output per Sprint naturally varies.",
+    "reference": "Scrum Guide 2020 - Scrum Events"
+  },
+  {
+    "id": "D1-042",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Who is accountable for creating a valuable, usable Increment every Sprint?",
+    "options": [
+      "The Scrum Master",
+      "The Product Owner alone",
+      "The Scrum Team",
+      "The organization's quality assurance function"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Scrum Team is accountable for creating a valuable, useful Increment every Sprint, with the Developers accountable for the work of building it. The Scrum Master is accountable for the team's effectiveness and for Scrum as defined in the Scrum Guide. The Product Owner is accountable for maximizing value, and quality assurance is not a separate Scrum accountability.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-043",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "easy",
+    "type": "multiple",
+    "question": "Which two risks does an empirical approach specifically help to control? (Choose two.)",
+    "options": [
+      "The risk of building the wrong thing because assumptions were never validated",
+      "The risk that team members take annual leave during a Sprint",
+      "The risk of discovering technical problems too late to respond",
+      "The risk of a supplier raising its prices",
+      "The risk that the organization's budget cycle changes"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Frequent delivery of usable Increments validates product assumptions early and exposes technical problems while there is still time to adapt. Staffing, supplier pricing and budget cycles are organizational matters that empiricism does not directly address. Scrum's iterative, incremental approach exists to optimize predictability and control risk of this kind.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-044",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team reports in the Daily Scrum that everything is fine, while integration problems are known but unspoken. Which value most directly addresses this behaviour, and why?",
+    "options": [
+      "Focus, because the team should concentrate only on its tasks",
+      "Openness, because the team and stakeholders must be open about the work and the challenges",
+      "Commitment, because the team must deliver what it forecast",
+      "Respect, because raising problems may embarrass colleagues"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Openness requires the Scrum Team to be open about the work and the challenges involved, and courage is needed to voice uncomfortable information. Using respect as a reason to hide problems misapplies the value and destroys transparency. Commitment is about achieving goals together, which is impossible if obstacles are concealed.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-045",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement about Sprint length is most consistent with empirical process control?",
+    "options": [
+      "Longer Sprints are preferable because they reduce planning overhead",
+      "Sprint length should vary with the size of each Product Backlog item",
+      "Shorter Sprints generate more learning cycles and limit risk to one shorter period of cost and effort",
+      "Sprint length should be set by the organization's financial reporting calendar"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Sprints are fixed at one month or less to create consistency, and shorter Sprints generate more learning cycles while limiting risk of cost and effort to a smaller time frame. Lengthening Sprints to save planning time delays feedback. Varying the length per item or aligning it to finance calendars removes the cadence that makes empiricism work.",
+    "reference": "Scrum Guide 2020 - The Sprint"
+  },
+  {
+    "id": "D1-046",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "An organization describes its approach as \"Scrum, but we removed the Sprint Review and report to a steering committee instead.\" How should this be assessed?",
+    "options": [
+      "It is a valid tailoring of Scrum since the committee still inspects progress",
+      "It is valid because the Scrum Guide allows events to be merged",
+      "It is valid as long as the Product Owner attends the committee",
+      "It is not Scrum, because leaving out elements of the framework is not permitted and it removes the collaborative inspection of the Increment with stakeholders"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Scrum's elements are immutable; omitting an event means the result is not Scrum and the benefits are diminished. A steering committee report is a one-way status mechanism and does not replace the collaborative inspection and adaptation of the Product Backlog with stakeholders at the Sprint Review. Attendance by the Product Owner does not restore that collaboration.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-047",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which situation best illustrates lean thinking inside a Scrum Team?",
+    "options": [
+      "Producing a detailed specification for every Product Backlog item before Sprint Planning",
+      "Stopping the production of a weekly report that nobody uses and investing that time in refinement",
+      "Maximizing each Developer's individual utilization to 100 percent",
+      "Adding more items to the Sprint Backlog to ensure nobody is idle"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Lean thinking reduces waste and focuses on the essentials, so eliminating an unused report frees capacity for work that creates value. Full individual utilization and overfilling the Sprint Backlog create queues and reduce flow rather than remove waste. Specifying everything in advance is inventory that may never be needed.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-048",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which three statements about self-managing Scrum Teams are accurate? (Choose three.)",
+    "options": [
+      "The team internally decides who does what, when and how",
+      "Self-management means the team has no accountability to anyone",
+      "The organization must provide an environment in which the team can be effective",
+      "Self-managing teams still work within boundaries such as the Sprint Goal and the Definition of Done",
+      "The Scrum Master assigns work to balance the team's workload"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Self-managing means the team internally decides who does what, when and how, while remaining accountable for the Increment and working within boundaries such as the Sprint Goal, the Definition of Done and organizational standards. Leadership is responsible for creating an environment where the team can be effective. The Scrum Master never assigns work, and self-management does not remove accountability.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-049",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A Scrum Master notices that the Sprint Retrospective produces improvement items that are never acted upon. From an empiricism perspective, which pillar is failing?",
+    "options": [
+      "Transparency, because the team does not share the items",
+      "Inspection, because the team does not look at the right data",
+      "Adaptation, because inspection is not resulting in actual change",
+      "Commitment, because the team does not promise to improve"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The team is inspecting but not adapting, which makes the inspection pointless. Transparency may be adequate if the items are visible, and the data inspected can be correct while nothing changes. Commitment is a value rather than a pillar, so it is not the correct answer to a question about pillars.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-050",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which description best captures the difference between \"iterative\" and \"incremental\" in Scrum?",
+    "options": [
+      "Iterative means repeating cycles that allow refinement based on feedback; incremental means building the product in usable pieces that add up over time",
+      "Iterative means adding new features; incremental means fixing defects",
+      "Iterative applies to planning while incremental applies to testing",
+      "They are synonyms used interchangeably in the Scrum Guide"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Iteration refers to repeating a cycle so the product and approach can be refined in light of feedback, while increments are the usable additions that accumulate toward the Product Goal. Scrum uses both together, which is why a Sprint both repeats a cadence and produces additive value. They are related but distinct ideas.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-051",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "The Developers ask the Scrum Master who should take a particular task during the Sprint. What is the best response?",
+    "options": [
+      "Assign the task to the person with the most free capacity",
+      "Ask the Product Owner to decide, since they own the value",
+      "Help the Developers decide for themselves, as they are accountable for their own plan and self-management",
+      "Escalate to the functional manager who owns that skill"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Self-managing teams decide internally who does what, when and how, so the Scrum Master coaches rather than allocates work. Having the Product Owner or a manager assign tasks removes the Developers' accountability for their plan. The Scrum Master serves by enabling the team's effectiveness, not by directing it.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-052",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Agile Manifesto principle is most closely reflected by Scrum's Sprint Retrospective?",
+    "options": [
+      "Business people and developers must work together daily throughout the project",
+      "At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly",
+      "Working software is the primary measure of progress",
+      "Simplicity, the art of maximizing the amount of work not done, is essential"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The retrospective principle describes a team reflecting at regular intervals and adjusting its behaviour, which is exactly the purpose of the Sprint Retrospective. Daily collaboration, working software as progress and simplicity map to other Scrum elements such as the Daily Scrum, the Increment and lean thinking. All four statements are genuine principles, but only one matches the event.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-053",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A Product Owner asks the Developers to skip parts of the Definition of Done to show more features at the Sprint Review. What is the most accurate analysis?",
+    "options": [
+      "This is acceptable because the Product Owner maximizes value",
+      "This is acceptable if the missing work is added to the Product Backlog",
+      "This reduces transparency of the Increment and creates hidden, undone work that increases risk",
+      "This is acceptable only when the Sprint Goal is already met"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Definition of Done creates transparency by providing a shared understanding of what completed work means; bypassing it produces undone work that misrepresents progress and accumulates risk. Logging the missing work later does not restore the transparency lost at the moment of inspection. No accountability, including the Product Owner's, authorizes lowering the Definition of Done for a demonstration.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-054",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two outcomes are expected when a Scrum Team genuinely lives the Scrum values? (Choose two.)",
+    "options": [
+      "Trust grows among team members and stakeholders",
+      "The need for the Definition of Done disappears",
+      "The pillars of transparency, inspection and adaptation come to life",
+      "Sprint forecasts become guaranteed commitments to scope",
+      "The Scrum Master no longer needs to coach the organization"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Living the values builds trust and brings the three pillars to life, which is precisely why the Scrum Guide links them. Values do not replace the Definition of Done or convert forecasts into scope guarantees. The Scrum Master's service to the organization continues regardless of how mature the team's values are.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-055",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the most accurate statement about Scrum's applicability outside software development?",
+    "options": [
+      "Scrum applies only to software because of its engineering focus",
+      "Scrum has been used widely for product research, services and other complex work, since it addresses complex problems generally",
+      "Scrum may be used elsewhere only if the events are renamed",
+      "Scrum applies to any work, including simple repetitive processes, with equal benefit"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Scrum is domain-agnostic and is applied to research, services, marketing, schools and many other settings where complex adaptive problems exist. Nothing requires renaming the events. However, Scrum is not the best fit for simple, highly repeatable work where a defined process is more efficient.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-056",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "How does the Sprint Goal support focus and empiricism?",
+    "options": [
+      "It locks the Sprint Backlog so no change is possible during the Sprint",
+      "It provides a single objective that creates coherence, letting the Developers adapt the work while still delivering value",
+      "It defines the exact tasks each Developer will complete",
+      "It replaces the Product Goal for the duration of the Sprint"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Sprint Goal is the single objective for the Sprint and creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives. The scope may be clarified and renegotiated with the Product Owner as more is learned, so the Sprint Backlog is not frozen. The Product Goal remains the longer-term objective the Sprint Goal contributes to.",
+    "reference": "Scrum Guide 2020 - Sprint Goal"
+  },
+  {
+    "id": "D1-057",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which pairing of a pillar with a Scrum event that primarily serves it is most accurate?",
+    "options": [
+      "Transparency and the Sprint Retrospective only",
+      "Inspection and Sprint Planning only",
+      "Adaptation and the Daily Scrum, where the Developers adjust their plan for the next day of work",
+      "Transparency and the Daily Scrum only, since it has no adaptive purpose"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "The Daily Scrum is an inspection of progress toward the Sprint Goal that results in adapting the Sprint Backlog and the plan for the next day of work. All Scrum events are opportunities to inspect and adapt, so limiting a pillar to a single event is inaccurate. Sprint Planning primarily creates a plan, although it also inspects the Product Backlog.",
+    "reference": "Scrum Guide 2020 - Scrum Events"
+  },
+  {
+    "id": "D1-058",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A manager argues that Scrum fails because the team's forecast changed mid-Sprint when new information emerged. What is the best explanation to offer?",
+    "options": [
+      "Adapting the scope as more is learned, while keeping the Sprint Goal intact, is exactly how empiricism is meant to work",
+      "The team broke the rules and should have delivered the original forecast",
+      "Changing the forecast means the Sprint must be cancelled",
+      "Forecasts may only be changed with the manager's approval"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Sprint Backlog is updated throughout the Sprint as more is learned, and scope may be clarified and renegotiated with the Product Owner without changing the Sprint Goal. Sprint cancellation is reserved for when the Sprint Goal becomes obsolete and is the Product Owner's authority. Managers do not approve changes to the Developers' plan.",
+    "reference": "Scrum Guide 2020 - Sprint Backlog"
+  },
+  {
+    "id": "D1-059",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "What is the best description of the Scrum Master's relationship to Scrum's rules?",
+    "options": [
+      "The Scrum Master enforces the rules by penalizing non-compliance",
+      "The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide and for the team's effectiveness",
+      "The Scrum Master may tailor the rules at will to fit the organization",
+      "The Scrum Master owns the rules and decides which events apply"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide and for the Scrum Team's effectiveness, helping everyone understand Scrum theory and practice. This is leadership and coaching rather than policing or punishment. Because Scrum is immutable, no individual may drop or rewrite its elements.",
+    "reference": "Scrum Guide 2020 - Scrum Master"
+  },
+  {
+    "id": "D1-060",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two practices would most improve transparency for a Scrum Team whose stakeholders distrust reported progress? (Choose two.)",
+    "options": [
+      "Producing a weekly percentage-complete report per task",
+      "Ensuring every item claimed as complete meets a strong Definition of Done",
+      "Inviting stakeholders to inspect the actual Increment at the Sprint Review",
+      "Asking the Scrum Master to summarize progress on the team's behalf",
+      "Tracking individual developer hours in a time-sheet system"
+    ],
+    "correct": [
+      1,
+      2
+    ],
+    "explanation": "Transparency comes from a shared, honest view of the real work, which a strong Definition of Done and direct stakeholder inspection of the Increment provide. Percentage-complete reports and time-sheets measure activity rather than usable value and often conceal undone work. Having the Scrum Master report on behalf of the team adds a filter instead of removing one.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-061",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement about the Product Goal best reflects Scrum theory?",
+    "options": [
+      "It is the long-term objective for the Scrum Team that the Product Backlog is committed to, providing context for inspection and adaptation",
+      "It is a fixed release date agreed with stakeholders",
+      "It is created by the Scrum Master to focus the Developers",
+      "It must be achieved within a single Sprint"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Product Goal is the long-term objective for the Scrum Team and is the commitment for the Product Backlog, giving the team a target against which to inspect progress. It is not a date, and the Product Owner is accountable for developing and communicating it. Teams must fulfil or abandon one Product Goal before taking on the next, which usually spans multiple Sprints.",
+    "reference": "Scrum Guide 2020 - Product Goal"
+  },
+  {
+    "id": "D1-062",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Why does Scrum limit the Sprint to one month or less?",
+    "options": [
+      "Because longer periods make it difficult to hold a Daily Scrum",
+      "Because budgets are typically approved monthly",
+      "Because the Sprint Goal may become invalid, complexity may rise and risk may increase beyond acceptable levels over longer horizons",
+      "Because the Product Backlog cannot be refined over a longer period"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "When a Sprint's horizon is too long, the Sprint Goal may become invalid, complexity may rise and risk may increase, so Sprints are fixed at one month or less. Shorter cycles provide more frequent inspection points. Budget cycles and backlog refinement mechanics are not the reason for the limit.",
+    "reference": "Scrum Guide 2020 - The Sprint"
+  },
+  {
+    "id": "D1-063",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team argues that because Scrum is \"lightweight\", it may drop the Definition of Done to move faster. Why is this reasoning flawed?",
+    "options": [
+      "Lightweight refers to the Scrum Guide being short, so any element may be dropped",
+      "Lightweight means minimal prescription, but each remaining element is mandatory and the Definition of Done is required for transparency of quality",
+      "The Definition of Done is optional for teams that already release frequently",
+      "Only regulated industries require a Definition of Done"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Lightweight means Scrum prescribes very little, not that its elements are optional; Scrum is immutable and the Definition of Done is the Increment's commitment. Without it there is no shared understanding of quality, so the Increment is not transparent. Frequent releases and industry regulation do not change this requirement.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-064",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "An organization insists on a fixed-scope, fixed-date contract and then asks a Scrum Team to use Scrum internally. What is the deepest tension from a Scrum theory viewpoint?",
+    "options": [
+      "The team cannot hold a Daily Scrum under contractual conditions",
+      "The Scrum Master cannot be accountable for an externally agreed contract",
+      "A fixed-scope commitment removes the ability to adapt the Product Backlog based on empirical feedback, which is the core mechanism for maximizing value in complex work",
+      "The Sprint length must match the contract milestones"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Empiricism depends on the freedom to re-order and change the Product Backlog as learning accumulates; a fixed scope converts complex work into a defined-process assumption and removes that adaptation. The events can still be held, so the obstacle is not mechanical. Scrum can be used in contracted settings, but the contract needs to allow scope to vary if value is to be optimized.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-065",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Two teams work on the same product. One team's Increment integrates only at the end of the Sprint, while the other integrates daily. Which statement best explains the empirical difference?",
+    "options": [
+      "Both approaches yield equal transparency because both produce an Increment each Sprint",
+      "Late integration is preferable because it reduces the number of builds",
+      "Daily integration is a mandatory Scrum rule stated in the Scrum Guide",
+      "Daily integration surfaces integration risk continuously, giving more inspection points and earlier adaptation, while late integration hides that risk until little time remains"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Frequent integration creates many small opportunities to detect and correct problems, whereas end-of-Sprint integration batches risk into the period with the least slack. Both teams may produce an Increment, but the transparency available during the Sprint differs greatly. The Scrum Guide does not mandate daily integration; it is a complementary engineering practice that strengthens empiricism.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-066",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "A Scrum Team consistently meets its Sprint Goals, yet stakeholders report that the product is not more valuable. Which two empirical explanations are most plausible? (Choose two.)",
+    "options": [
+      "The Sprint Goals are chosen without validated insight into customer needs, so the right things are not being built",
+      "The team's Definition of Done is too strict, which prevents value delivery",
+      "Feedback from the Sprint Review is collected but not used to adapt the Product Backlog",
+      "The Daily Scrum is too short to allow planning",
+      "The Scrum Master is not assigning tasks to the most capable Developers"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Delivering Done work reliably still produces no value if the goals pursue unvalidated assumptions or if stakeholder feedback never changes the Product Backlog; both are failures of adaptation rather than execution. A strict Definition of Done raises quality and does not reduce value. The Daily Scrum time-box is sufficient for its purpose, and the Scrum Master never assigns tasks.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-067",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which analysis best explains why Scrum avoids a command-and-control management style for complex work?",
+    "options": [
+      "Because managers lack technical knowledge in all cases",
+      "Because hierarchy is prohibited by the Agile Manifesto",
+      "Because command-and-control is slower to arrange meetings",
+      "Because in complex domains the people closest to the work hold the most current information, so decision-making is most effective when it sits with them"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Complexity means information changes rapidly and is richest at the point of work, so self-managing teams can adapt faster than a chain of approvals permits. The argument is about information flow and speed of adaptation, not about managers' competence. The Manifesto does not prohibit hierarchy; it favours trusting motivated individuals and self-organizing teams.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-068",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Scrum Team's Product Backlog contains highly detailed items planned twelve months ahead, all estimated and frozen. What is the most significant empirical concern?",
+    "options": [
+      "The Product Owner will not have time to attend the Daily Scrum",
+      "Estimation is forbidden by the Scrum Guide",
+      "The Sprint Backlog will be too large to display",
+      "Detailed long-range planning creates inventory that is likely to be invalidated by learning, and freezing it removes the backlog's emergent nature"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The Product Backlog is an emergent, ordered list that changes as the product and environment are better understood; detailed long-range specification is unvalidated inventory and conflicts with lean thinking. Estimation itself is allowed, since Product Backlog items have a size attribute. Attendance at the Daily Scrum is for the Developers, so that is not the issue.",
+    "reference": "Scrum Guide 2020 - Product Backlog"
+  },
+  {
+    "id": "D1-069",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which situation represents the clearest misunderstanding of the phrase \"Scrum is immutable\"?",
+    "options": [
+      "A team adds a Definition of Ready as a complementary practice while keeping all Scrum events",
+      "A team uses Kanban practices to visualize flow inside the Sprint",
+      "A team combines Sprint Review and Sprint Retrospective into one event to save time",
+      "A team shortens its Sprint from four weeks to two weeks"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Merging two prescribed events removes distinct inspection and adaptation purposes, which is a change to Scrum's design and therefore no longer Scrum. Adding complementary practices such as a Definition of Ready or Kanban visualization is allowed as long as Scrum's elements remain intact. Changing Sprint length within one month is an explicit choice available to the team.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-070",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "How should a Scrum Master interpret the Agile Manifesto statement that \"while there is value in the items on the right, we value the items on the left more\"?",
+    "options": [
+      "The items on the right, such as processes, tools and documentation, should be eliminated",
+      "Both sides are equally weighted in every decision",
+      "The items on the left apply to teams and the items on the right apply to management",
+      "The items on the right still matter, but when a trade-off is needed, priority goes to the items on the left"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The Manifesto explicitly preserves value in processes, tools, documentation, contracts and plans while giving precedence to the left-hand items when a trade-off arises. It is not a call to abolish documentation or process. Treating both sides as equal removes the guidance the statement is meant to provide.",
+    "reference": "Agile Manifesto - Values"
+  },
+  {
+    "id": "D1-071",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement best explains why Scrum requires the whole Scrum Team to attend the Sprint Retrospective?",
+    "options": [
+      "Because attendance is used to measure engagement",
+      "Because the Scrum Master needs witnesses for improvement decisions",
+      "Because the Product Owner must approve the improvements",
+      "Because the effectiveness of interactions, process, tools and the Definition of Done concerns everyone on the team"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The Sprint Retrospective inspects how the last Sprint went with regard to individuals, interactions, processes, tools and the Definition of Done, all of which involve the entire Scrum Team. Improvements are decided collaboratively, not approved by one accountability. Attendance is about shared inspection, not measurement or witnessing.",
+    "reference": "Scrum Guide 2020 - Sprint Retrospective"
+  },
+  {
+    "id": "D1-072",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which three characteristics describe complex work for which Scrum is well suited? (Choose three.)",
+    "options": [
+      "Requirements are likely to change as understanding grows",
+      "Cause and effect are only clear in hindsight",
+      "The same inputs reliably produce the same outputs",
+      "Solutions must be discovered through experimentation and feedback",
+      "The complete solution can be specified accurately before work starts"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Complex work is characterized by emerging requirements, cause-and-effect relationships that are visible only in retrospect, and solutions that must be probed through experiments and feedback. Reliable input-output repeatability and accurate up-front specification describe simple or complicated domains where defined processes work better. Scrum addresses the complex domain through empiricism.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-073",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A Scrum Team wants to measure its success. Which measure is most consistent with Scrum's theory?",
+    "options": [
+      "The value delivered to customers and progress toward the Product Goal",
+      "The number of story points completed per Sprint compared with other teams",
+      "The percentage of tasks completed against the Sprint plan",
+      "The number of hours logged by each Developer"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scrum exists to generate value through adaptive solutions, so outcomes such as customer value and progress toward the Product Goal matter most. Velocity comparisons between teams, task completion percentages and logged hours measure activity and invite gaming. Working, usable product is the primary measure of progress.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-074",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which Agile Manifesto principle best explains why Scrum Teams and stakeholders collaborate throughout the Sprint rather than only at its boundaries?",
+    "options": [
+      "Business people and developers must work together daily throughout the project",
+      "Working software is the primary measure of progress",
+      "The best architectures, requirements and designs emerge from self-organizing teams",
+      "Simplicity is essential"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The principle of daily collaboration between business people and developers supports ongoing conversation rather than periodic handoffs. Working software as a measure of progress and emergent design are principles about outcomes and team structure. Simplicity relates to maximizing the amount of work not done.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-075",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two statements correctly describe the Scrum Guide's position on Scrum's structure? (Choose two.)",
+    "options": [
+      "Each element of the framework serves a specific purpose essential to the overall value and results realized with Scrum",
+      "Elements may be removed when a team becomes experienced enough",
+      "Scrum's elements may be implemented alongside other techniques and methods",
+      "The framework can be modified as long as the Scrum Master documents the deviation",
+      "The framework is complete and requires no complementary practices"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Each element of Scrum serves a specific purpose essential to the value realized, and Scrum can be wrapped around other techniques, methodologies and practices. Removing elements or changing the core design means the result is not Scrum, regardless of team experience or documentation. Scrum is intentionally incomplete, so complementary practices are expected.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-076",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "During Sprint Planning the Developers realize the work is less understood than expected. Which response is most aligned with empiricism?",
+    "options": [
+      "Pad the forecast with extra buffer and keep the original scope",
+      "Extend the Sprint until the uncertainty is resolved",
+      "Ask the Product Owner to specify the solution in detail before starting",
+      "Select a smaller amount of work, define a Sprint Goal that creates learning, and adapt as knowledge grows"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Empiricism favours taking a smaller slice, producing something inspectable and adapting with what is learned; a Sprint Goal can legitimately include resolving uncertainty. Sprints are fixed in length and are never extended. Padding estimates or demanding a detailed up-front solution assumes predictability that does not exist in complex work.",
+    "reference": "Scrum Guide 2020 - Sprint Planning"
+  },
+  {
+    "id": "D1-077",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement about the relationship between Scrum and project management roles is most accurate?",
+    "options": [
+      "Scrum does not define a project manager; its accountabilities distribute the related responsibilities across the Scrum Team",
+      "The Scrum Master is the project manager for the Scrum Team",
+      "The Product Owner is a project manager responsible for scope, schedule and budget tracking",
+      "Scrum requires a project manager outside the team to coordinate dependencies"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scrum defines three accountabilities, none of which is a project manager; planning, risk management and coordination are distributed across the Product Owner, Scrum Master and Developers. Treating the Scrum Master as a project manager is a common misconception that leads to directing the team. External coordination roles may exist in an organization, but Scrum does not require them.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-078",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which two statements about the Definition of Done and transparency are true? (Choose two.)",
+    "options": [
+      "It creates a shared understanding of what it means for work to be complete on the Increment",
+      "It is written by the Product Owner for each Product Backlog item",
+      "If an organization has standards for Done, all Scrum Teams must follow them as a minimum",
+      "It may be lowered at the end of a Sprint if the deadline is at risk",
+      "It applies only to the final release of the product"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "The Definition of Done creates a shared understanding of what completed work means, and when organizational standards exist, all Scrum Teams must follow them as a minimum. It is a Scrum Team commitment rather than a per-item artifact authored by the Product Owner. Lowering it under pressure destroys transparency, and it applies to every Increment, not only releases.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-079",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which behaviour best demonstrates that an organization understands self-management rather than merely claiming it?",
+    "options": [
+      "Managers approve the Sprint Backlog before work begins",
+      "The team's capacity plan is produced by a resource manager",
+      "Managers allocate specialists to tasks to balance workload",
+      "Leaders remove organizational impediments and then let the team decide how to deliver the Sprint Goal"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Self-management requires leaders to create a supportive environment and remove systemic obstacles while leaving the how, who and when to the team. Approving the Sprint Backlog, producing the plan externally or assigning specialists all return control to management. The Developers are accountable for their own plan for the Sprint.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-080",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Which statement best captures why Scrum says a Scrum Team should be small enough to remain nimble and large enough to complete significant work within a Sprint?",
+    "options": [
+      "Smaller teams communicate more effectively and are more productive, while still needing the skills to deliver value each Sprint",
+      "Smaller teams require fewer Scrum events",
+      "Larger teams are forbidden by the Agile Manifesto",
+      "Team size determines the length of the Sprint"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "The Scrum Guide notes that smaller teams communicate better and are more productive, with typically ten or fewer people, while the team must still be able to complete significant work in a Sprint. Team size does not change which events are held or how long a Sprint lasts. The Agile Manifesto does not specify team sizes.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-081",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A team claims it achieves transparency by publishing a very detailed Gantt chart of all remaining work. Why may this be insufficient?",
+    "options": [
+      "Gantt charts are explicitly banned by the Scrum Guide",
+      "Transparency only applies to the Sprint Backlog",
+      "Only the Scrum Master is permitted to create progress visualizations",
+      "Transparency requires a shared, accurate understanding of the actual state of the work and the product, which a projected schedule of unvalidated work does not provide"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Transparency is about the emergent process and work being genuinely visible and shared with a common understanding; a detailed plan of unvalidated future work can create an illusion of certainty rather than real visibility. The Scrum Guide does not forbid any particular chart, and any team member may create visualizations. Transparency applies to all artifacts and progress, not only the Sprint Backlog.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-082",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "question": "Which three of the following are genuine principles behind the Agile Manifesto? (Choose three.)",
+    "options": [
+      "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software",
+      "Every team must hold a daily stand-up meeting of fifteen minutes",
+      "Deliver working software frequently, with a preference to the shorter timescale",
+      "Continuous attention to technical excellence and good design enhances agility",
+      "Teams must estimate all work in story points"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Early and continuous delivery of valuable software, frequent delivery with a preference for shorter timescales, and continuous attention to technical excellence are three of the twelve principles. Daily stand-ups of a fixed length and story-point estimation are practices from specific frameworks and tools, not Manifesto principles. The Manifesto describes values and principles rather than prescribing techniques.",
+    "reference": "Agile Manifesto - 12 Principles"
+  },
+  {
+    "id": "D1-083",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "An organization measures Scrum Teams on velocity and rewards increases. What is the most likely empirical consequence?",
+    "options": [
+      "Estimates inflate and quality shortcuts appear, distorting transparency and making inspection unreliable",
+      "Teams will naturally improve their actual throughput and value delivery",
+      "The Product Owner will be unable to order the Product Backlog",
+      "Sprint lengths will automatically shorten"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Rewarding a self-reported measure incentivizes inflating estimates and cutting corners, which corrupts the data the team and organization rely on for inspection. Velocity is a forecasting aid for a single team, not a performance target or a cross-team comparison. Backlog ordering and Sprint length are not mechanically affected, but decisions based on distorted data increase risk.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-084",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "A Scrum Team is afraid to raise bad news because previous messengers were blamed. Which two Scrum values are most directly suppressed, and what is the empirical effect? (Choose two.)",
+    "options": [
+      "Openness, because challenges are hidden from the team and stakeholders",
+      "Focus, because the team works on too many items",
+      "Courage, because members do not do the right thing when it is uncomfortable",
+      "Commitment, because the team refuses to forecast work",
+      "Respect, because the team ignores stakeholder opinions"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Blame culture suppresses openness and courage, which prevents problems from becoming visible and therefore undermines transparency and the inspections that depend on it. Focus, commitment and respect may also suffer indirectly, but the described behaviour is specifically about concealing uncomfortable truths. Restoring psychological safety is a key part of the Scrum Master's service to the organization.",
+    "reference": "Scrum Guide 2020 - Scrum Values"
+  },
+  {
+    "id": "D1-085",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which argument most accurately rebuts the claim that \"Scrum is just a set of meetings\"?",
+    "options": [
+      "The events exist only to keep managers informed about progress",
+      "Scrum has more artifacts than events, so the claim is numerically wrong",
+      "The claim is true, but the meetings are shorter than traditional ones",
+      "Each event exists to enable a specific inspection and adaptation of an artifact against a commitment, which is how empiricism is operationalized"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Scrum's events are not status meetings; each one creates a formal opportunity to inspect an artifact against its commitment and to adapt, which is how transparency, inspection and adaptation are enacted. The value lies in the decisions and changes they produce, not in their duration or count. Informing managers is a by-product, not the purpose.",
+    "reference": "Scrum Guide 2020 - Scrum Events"
+  },
+  {
+    "id": "D1-086",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which scenario shows the strongest alignment between lean thinking and the Scrum Team's behaviour?",
+    "options": [
+      "The team splits a large item so a thin, valuable slice can be validated, deferring remaining work until the feedback justifies it",
+      "The team builds all foreseeable configuration options now to avoid rework later",
+      "The team starts every available item so that work is in progress across the board",
+      "The team documents every design decision in a formal specification before coding"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Lean thinking reduces waste and focuses on essentials, and the Manifesto principle of maximizing the amount of work not done supports deferring work until feedback justifies it. Building speculative options, starting many items at once and producing exhaustive documentation all create inventory and work in progress that may never pay off. Small validated slices also improve empirical feedback.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-087",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "Which three conditions would most strongly indicate that an organization has adopted Scrum in name only? (Choose three.)",
+    "options": [
+      "Sprint Backlogs are assigned to Developers by a manager outside the team",
+      "The Sprint Retrospective produces improvements that the team acts on",
+      "Increments are declared complete although significant testing remains",
+      "Product Backlog ordering is dictated by a committee rather than the Product Owner",
+      "The Scrum Team changes its Sprint length from four weeks to two"
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Externally assigned work violates self-management, declaring undone work complete breaks the Definition of Done and transparency, and a committee overriding the Product Owner removes the single accountability for maximizing value. Acting on retrospective improvements and choosing a shorter Sprint length are healthy Scrum behaviours. Together, those three conditions turn Scrum into a reporting ritual.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-088",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Scrum Master is told that the organization wants predictability above all else. What is the most accurate framing to offer?",
+    "options": [
+      "Scrum optimizes predictability by delivering frequently and inspecting empirically, but in complex work it reduces uncertainty rather than eliminating it",
+      "Scrum guarantees predictability through its fixed cadence",
+      "Predictability must be abandoned when using Scrum",
+      "Predictability improves only if the Product Backlog is fully estimated up front"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scrum employs an iterative, incremental approach to optimize predictability and control risk, which means uncertainty is progressively reduced through evidence, not removed by promise. A fixed cadence alone guarantees nothing about outcomes. Full up-front estimation produces false confidence because the estimates rest on unvalidated assumptions.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-089",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement best describes how Scrum's three pillars relate to one another?",
+    "options": [
+      "They operate independently and can be improved in isolation",
+      "Adaptation is a prerequisite for transparency",
+      "Inspection can compensate for a lack of transparency if performed more often",
+      "Transparency enables meaningful inspection, and inspection enables useful adaptation, so weakness in one degrades the others"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The pillars form a chain: artifacts must be transparent for inspection to be meaningful, and inspection must lead to adaptation to be worthwhile. More frequent inspection of a distorted artifact simply produces more misleading conclusions. Adaptation is an outcome of the chain rather than a precondition for transparency.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-090",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "Which two statements about empiricism and the Sprint are correct? (Choose two.)",
+    "options": [
+      "A Sprint is a container event in which all other Scrum events take place, creating a regular inspection cadence",
+      "The Sprint may be extended if the Sprint Goal has not been met",
+      "A new Sprint starts immediately after the conclusion of the previous Sprint",
+      "The Sprint Goal may be changed by the Developers whenever convenient",
+      "Sprints exist primarily to give managers fixed reporting checkpoints"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Sprints are fixed-length containers for all other events, and a new Sprint starts immediately after the previous one concludes, which sustains the inspect-and-adapt rhythm. A Sprint is never extended, and if the Sprint Goal becomes obsolete the Product Owner may cancel the Sprint. The Sprint Goal is a commitment that does not change during the Sprint, even though scope may be renegotiated.",
+    "reference": "Scrum Guide 2020 - The Sprint"
+  },
+  {
+    "id": "D1-091",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Stakeholders request that the Scrum Team add a formal sign-off gate before each Increment is considered Done. What is the most useful Scrum-based analysis?",
+    "options": [
+      "If the criterion is genuinely needed for quality, it belongs inside the Definition of Done rather than as an external gate that delays transparency",
+      "A sign-off gate is required for regulated products and overrides the Definition of Done",
+      "The request should be refused because stakeholders have no say in quality",
+      "The Scrum Master should add the gate to the Sprint Retrospective agenda permanently"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Quality criteria that determine completeness belong in the Definition of Done, so the Increment is genuinely usable when the Sprint ends; an external gate after the Sprint creates undone work and delays feedback. Stakeholder quality concerns are legitimate input, so a blanket refusal is wrong. Regulatory requirements can be incorporated into the Definition of Done rather than bypassing it.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-092",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which conclusion follows most directly from Scrum being \"purposefully incomplete\"?",
+    "options": [
+      "Scrum must be combined with a formal methodology to be usable",
+      "Scrum's rules can be ignored until the team decides which to adopt",
+      "Scrum is unfinished and will be replaced by a complete framework",
+      "The framework intentionally leaves practice choices to the team, relying on their collective intelligence rather than prescribing how to do the work"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "Scrum defines only what is needed to implement its theory and deliberately leaves implementation choices to the people doing the work, relying on their collective intelligence. Incompleteness does not make the defined rules optional, nor does it require pairing with a formal methodology. It is a design choice, not a sign of an unfinished product.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-093",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "Which two actions would best restore transparency when a Scrum Team discovers mid-Sprint that significant technical debt makes its progress reporting misleading? (Choose two.)",
+    "options": [
+      "Make the technical debt and its impact visible in the Product Backlog so it can be ordered and addressed",
+      "Delay disclosure until the Sprint Review so the demonstration is not disrupted",
+      "Discuss the situation openly with the Product Owner and adapt the Sprint Backlog as needed",
+      "Reduce the Definition of Done so current progress appears accurate",
+      "Have the Scrum Master report the issue only to senior management"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "Transparency is restored by surfacing the debt where decisions are made, which means raising it with the Product Owner immediately and representing it in the Product Backlog so it can be ordered. Delaying disclosure, weakening the Definition of Done or routing information to management alone all keep the Scrum Team's artifacts misleading. Adaptation should follow as soon as possible after the problem is detected.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-094",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement most accurately contrasts Scrum's use of goals with traditional scope commitments?",
+    "options": [
+      "Scrum commits to objectives such as the Sprint Goal and Product Goal, which permits the scope used to reach them to be adapted as learning occurs",
+      "Scrum commits to a fixed list of features per Sprint, which cannot change",
+      "Scrum avoids commitments entirely to preserve flexibility",
+      "Scrum commits to deadlines rather than outcomes"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Scrum's commitments are the Product Goal, Sprint Goal and Definition of Done, all of which focus on objectives and quality rather than a frozen feature list. This lets the Developers negotiate scope with the Product Owner as they learn, without abandoning commitment. Scrum does not avoid commitment; it directs it at outcomes.",
+    "reference": "Scrum Guide 2020 - Scrum Artifacts"
+  },
+  {
+    "id": "D1-095",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Scrum Team working in a highly regulated domain argues that empiricism cannot apply because compliance evidence is mandatory. What is the best response?",
+    "options": [
+      "Compliance activities and evidence can be built into the Definition of Done so every Increment is genuinely releasable and inspectable",
+      "Scrum cannot be used where regulation applies",
+      "Compliance work should be deferred to a hardening Sprint at the end",
+      "Regulation replaces the need for inspection and adaptation"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Regulatory requirements can be incorporated into the Definition of Done, which keeps each Increment usable and preserves empirical feedback. A hardening Sprint defers undone work and hides risk, and Scrum explicitly has no such concept. Regulation constrains how work is done but does not remove the complexity that makes inspection and adaptation valuable.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-096",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "Which three statements correctly describe the Scrum Team's accountability structure in the 2020 Scrum Guide? (Choose three.)",
+    "options": [
+      "The Scrum Team consists of one Scrum Master, one Product Owner and Developers, with no sub-teams or hierarchies",
+      "The Scrum Team is responsible for all product-related activities from collaboration to experimentation and maintenance",
+      "The Developers form a separate team that reports to the Product Owner",
+      "The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint",
+      "The Scrum Master is accountable for the Developers' task-level estimates"
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "The 2020 Scrum Guide describes one cohesive Scrum Team with no sub-teams or hierarchies, accountable for all product-related activities and for producing a valuable, useful Increment each Sprint. The notion of a separate development team reporting to the Product Owner was removed in 2020. The Developers, not the Scrum Master, are responsible for sizing and planning their own work.",
+    "reference": "Scrum Guide 2020 - Scrum Team"
+  },
+  {
+    "id": "D1-097",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which situation most clearly shows that a team has mistaken activity for empiricism?",
+    "options": [
+      "The team holds every Scrum event on schedule but never changes anything as a result of them",
+      "The team cancels an improvement experiment after evidence shows it is not working",
+      "The team renegotiates Sprint scope with the Product Owner after new information appears",
+      "The team shortens its Sprint to gather feedback more often"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Running the events while never adapting reduces Scrum to ceremony, since inspection without adaptation is pointless. Abandoning a failing experiment, renegotiating scope with the Product Owner and shortening the Sprint are all genuine adaptations driven by evidence. Empiricism is judged by the decisions produced, not by attendance.",
+    "reference": "Scrum Guide 2020 - Scrum Theory"
+  },
+  {
+    "id": "D1-098",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "multiple",
+    "question": "Which two statements best explain why Scrum is described as difficult to master even though its rules are few? (Choose two.)",
+    "options": [
+      "Mastery requires sustained behavioural change and living the Scrum values under real pressure",
+      "Mastery requires memorizing a long list of mandatory practices",
+      "Organizational structures, incentives and culture often conflict with empiricism and self-management",
+      "The Scrum Guide intentionally hides some of its rules",
+      "Mastery depends on acquiring certifications at increasing levels"
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "explanation": "The difficulty lies in changing deeply held behaviours and in the surrounding system, where existing incentives, structures and culture frequently work against transparency, self-management and adaptation. Scrum prescribes very few practices and conceals nothing, so memorization is not the obstacle. Certifications may evidence knowledge but do not confer mastery.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  },
+  {
+    "id": "D1-099",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Two Scrum Teams on the same product use different Definitions of Done, producing Increments that cannot be integrated. What is the most appropriate resolution in line with Scrum theory?",
+    "options": [
+      "Each team keeps its own Definition of Done and integration is handled by a separate team",
+      "The Product Owner chooses whichever Definition of Done is less strict",
+      "Integration should be scheduled as a separate project after several Sprints",
+      "The teams must mutually define and apply a Definition of Done appropriate for the product so a combined Increment is usable"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "When multiple Scrum Teams work together on a product, they must mutually define and comply with the same Definition of Done so their combined Increment is genuinely usable. Separate integration teams or deferred integration projects push undone work downstream and hide risk. Choosing the weaker definition lowers quality transparency instead of resolving the problem.",
+    "reference": "Scrum Guide 2020 - Increment"
+  },
+  {
+    "id": "D1-100",
+    "domain": "Scrum Theory & Empiricism",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which conclusion about Scrum's purpose is best supported by the Scrum Guide 2020?",
+    "options": [
+      "Scrum exists to make teams deliver more output per Sprint",
+      "Scrum exists to standardize processes across an organization",
+      "Scrum exists to give management better control over the work of teams",
+      "Scrum exists to help people, teams and organizations generate value through adaptive solutions for complex problems"
+    ],
+    "correct": [
+      3
+    ],
+    "explanation": "The Scrum Guide states that Scrum helps people, teams and organizations generate value through adaptive solutions for complex problems. Increased output, process standardization and managerial control are common misinterpretations that conflict with empiricism and self-management. Value and adaptability, not volume, are the measures that matter.",
+    "reference": "Scrum Guide 2020 - Scrum Definition"
+  }
+]

@@ -1,0 +1,1836 @@
+[
+ {
+  "id": "D3-001",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the maximum length of a Sprint?",
+  "options": [
+   "One month",
+   "Six weeks",
+   "Whatever the Product Owner decides, with no upper limit",
+   "Two weeks"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Sprints are fixed-length events of one month or less, which keeps the planning horizon short and limits risk to one month of cost. Two weeks is a common choice but not the limit, and nothing longer than a month is allowed regardless of who wants it.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-002",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who has the authority to cancel a Sprint?",
+  "options": [
+   "The Developers, by majority vote",
+   "The Product Owner",
+   "The stakeholders who fund the product",
+   "The Scrum Master, when the team cannot finish the forecast"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Only the Product Owner has the authority to cancel a Sprint, and this happens when the Sprint Goal becomes obsolete. The Scrum Master facilitates and may advise, but does not decide; an unfinished forecast is a normal situation handled at the Sprint Review, not a reason to cancel.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-003",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the timebox for the Daily Scrum?",
+  "options": [
+   "One hour",
+   "It varies with the length of the Sprint",
+   "15 minutes",
+   "30 minutes"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Daily Scrum is timeboxed to 15 minutes regardless of Sprint length. Unlike Sprint Planning, Sprint Review and the Retrospective, it does not scale with the duration of the Sprint.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-004",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "When does the next Sprint begin?",
+  "options": [
+   "When the Developers have finished all remaining work from the last Sprint",
+   "After a short stabilization period to fix defects",
+   "Once the Product Owner has approved the previous Increment in writing",
+   "Immediately after the conclusion of the previous Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "A new Sprint starts immediately after the conclusion of the previous Sprint, which is what creates the continuous cadence of Scrum. Hardening sprints, approval gates and catch-up periods between Sprints are not part of Scrum.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-005",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the maximum duration of Sprint Planning for a one-month Sprint?",
+  "options": [
+   "Eight hours",
+   "Two hours",
+   "One full working day plus preparation time",
+   "Four hours"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Sprint Planning is timeboxed to a maximum of eight hours for a one-month Sprint and is usually shorter for shorter Sprints. Four hours is the Sprint Review timebox for a one-month Sprint, not Sprint Planning.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-006",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event is the container that holds all other Scrum events?",
+  "options": [
+   "The Daily Scrum",
+   "The Sprint",
+   "Sprint Planning",
+   "The Sprint Review"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint is a container event; Sprint Planning, Daily Scrums, the Sprint Review and the Sprint Retrospective all take place within it. The other events are contained by the Sprint, not the other way around.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-007",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During Sprint Planning, who is accountable for crafting the Sprint Goal?",
+  "options": [
+   "The Scrum Master, as the facilitator of the event",
+   "The Product Owner alone, since it reflects business value",
+   "The whole Scrum Team, collaboratively",
+   "The Developers alone, since they must deliver it"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Goal is created during Sprint Planning by the whole Scrum Team through collaboration. The Product Owner proposes how the product could increase value and the Developers contribute feasibility, but the goal itself is a shared commitment, not a one-person deliverable.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-008",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which three topics are addressed in Sprint Planning?",
+  "options": [
+   "Cost, Scope and Schedule",
+   "Risks, Dependencies and Estimates",
+   "Who, When and Where",
+   "Why, What and How"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Sprint Planning addresses Why this Sprint is valuable (the Sprint Goal), What can be done this Sprint, and How the chosen work will get done. Scope, cost and schedule framing belongs to traditional project planning rather than Scrum's event structure.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-009",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who is required to participate in the Daily Scrum?",
+  "options": [
+   "The Developers",
+   "The entire Scrum Team plus key stakeholders",
+   "The Scrum Master and the Developers",
+   "The Product Owner and the Developers"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Daily Scrum is an event for the Developers of the Scrum Team. If the Product Owner or Scrum Master are actively working on Sprint Backlog items they participate as Developers; otherwise they are not required to attend.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-010",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the maximum duration of the Sprint Review for a one-month Sprint?",
+  "options": [
+   "Two hours",
+   "Four hours",
+   "Eight hours",
+   "Three hours"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Review is timeboxed to a maximum of four hours for a one-month Sprint and is proportionally shorter for shorter Sprints. Three hours is the Retrospective timebox and eight hours is the Sprint Planning timebox for a one-month Sprint.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-011",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the maximum duration of the Sprint Retrospective for a one-month Sprint?",
+  "options": [
+   "90 minutes",
+   "Two hours",
+   "Three hours",
+   "Four hours"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Retrospective is timeboxed to a maximum of three hours for a one-month Sprint. Shorter Sprints normally use a shorter Retrospective, but the event is never skipped.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-012",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A manager asks the Developers to report their individual daily progress to him during the Daily Scrum. How should the Scrum Master respond?",
+  "options": [
+   "Ask the Product Owner to run the Daily Scrum so the manager has a single point of contact",
+   "Arrange for the manager to receive a written summary after every Daily Scrum instead",
+   "Allow it, because transparency to management is a Scrum value",
+   "Coach the manager that the Daily Scrum is the Developers' event for inspecting progress toward the Sprint Goal, not a status report to a manager"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Daily Scrum exists so the Developers can inspect progress toward the Sprint Goal and adapt the Sprint Backlog; it is not a status meeting for managers. The Scrum Master coaches stakeholders on the purpose of the event and can point the manager to the Sprint Review and the transparent Sprint Backlog for progress information.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-013",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Why is the Daily Scrum held at the same time and place every day?",
+  "options": [
+   "To reduce complexity by removing the need to coordinate a meeting each day",
+   "So that managers always know where to find the Developers",
+   "Because the room booking must be fixed for audit purposes",
+   "Because the Scrum Guide forbids any change to a team's working agreements"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Holding the Daily Scrum at the same time and place every day reduces complexity and removes the overhead of repeatedly scheduling it. It is about regularity for the Developers, not about surveillance or administrative compliance.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-014",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Midway through a Sprint, a senior stakeholder asks the Developers to add a large new feature that would make the Sprint Goal unachievable. What is the most appropriate response?",
+  "options": [
+   "The Scrum Master cancels the Sprint and Sprint Planning is repeated",
+   "The request is discussed with the Product Owner; no change that endangers the Sprint Goal is made, and the item can be added to the Product Backlog",
+   "The Developers drop an equivalent amount of work and add the feature immediately",
+   "The Developers accept the work because stakeholder satisfaction is the priority"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "During the Sprint no changes are made that would endanger the Sprint Goal, so the request should go to the Product Owner and into the Product Backlog for future ordering. Scope may be clarified and renegotiated between the Product Owner and Developers as more is learned, but not in a way that undermines the Sprint Goal, and the Scrum Master cannot cancel a Sprint.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-015",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement best describes the Sprint Review?",
+  "options": [
+   "A formal gate where the Product Owner signs off the Increment before release",
+   "A demonstration prepared by the Scrum Master to show management what was built",
+   "A working session where the Scrum Team and stakeholders inspect the Increment and adapt the Product Backlog",
+   "A meeting where the Developers explain which items they failed to complete and why"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Review is a working session in which the Scrum Team presents the outcome to key stakeholders, progress toward the Product Goal is discussed, and the Product Backlog is adapted based on what is learned. It is explicitly not a sign-off gate and should avoid being limited to a one-way presentation.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-016",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the main purpose of the Sprint Retrospective?",
+  "options": [
+   "To determine which Developers underperformed during the Sprint",
+   "To review the completed Increment with stakeholders",
+   "To re-estimate the remaining Product Backlog items",
+   "To plan how to improve quality and effectiveness in the next Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint Retrospective exists to plan ways to increase quality and effectiveness by inspecting how the last Sprint went. Inspecting the Increment with stakeholders is the Sprint Review, and individual blame is contrary to the purpose of the event.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-017",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which elements does the Scrum Team inspect during the Sprint Retrospective? (Choose three.)",
+  "options": [
+   "Individuals and interactions",
+   "The stakeholders' satisfaction scores for each team member",
+   "Processes and tools",
+   "Their Definition of Done",
+   "The detailed financial forecast for the product"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "The Scrum Team inspects how the last Sprint went with regard to individuals, interactions, processes, tools and their Definition of Done. Individual satisfaction scoring and financial forecasting are not part of the event's purpose.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-018",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Where do the most impactful improvements identified in the Sprint Retrospective typically go?",
+  "options": [
+   "Into the Sprint Backlog of the next Sprint",
+   "Into the Product Backlog as ordered items for the Product Owner to prioritize",
+   "Into a management action log reviewed quarterly",
+   "Into a separate continuous improvement backlog owned by the Scrum Master"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Team may add the most impactful improvements to the Sprint Backlog of the next Sprint so they are addressed as soon as possible. Parking improvements in separate logs or quarterly reviews delays adaptation and reduces the value of the Retrospective.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-019",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event concludes the Sprint?",
+  "options": [
+   "The release to production",
+   "The Sprint Retrospective",
+   "The final Daily Scrum",
+   "The Sprint Review"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Retrospective concludes the Sprint. The Sprint Review comes before it, and releasing to production can happen at any time during the Sprint.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-020",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Why are the Scrum events held at a regular cadence?",
+  "options": [
+   "To make sure the Scrum Master has enough facilitation work to do",
+   "To ensure every team member reports progress to the Product Owner daily",
+   "To create regularity and minimize the need for other meetings not defined in Scrum",
+   "To give managers predictable checkpoints for approving the team's work"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum's prescribed events create regularity and minimize the need for meetings not defined in Scrum. They are inspect-and-adapt opportunities for the Scrum Team, not approval checkpoints for management.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-021",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How should Product Backlog refinement be understood in Scrum?",
+  "options": [
+   "As a task performed exclusively by the Product Owner outside the Sprint",
+   "As a mandatory part of Sprint Planning that cannot occur at any other time",
+   "As a formal Scrum event that must be held once per Sprint",
+   "As an ongoing activity performed as needed during the Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Refinement is an ongoing activity, not one of the five Scrum events, and it breaks down and further defines Product Backlog items into smaller, more precise items. The Developers who will do the work are responsible for sizing, so it is not a solo Product Owner task.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-022",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team runs two-week Sprints. What is a reasonable maximum for their Sprint Review?",
+  "options": [
+   "Two hours",
+   "One hour, because shorter Sprints require shorter reviews of exactly 30 minutes per week",
+   "There is no limit as long as stakeholders are engaged",
+   "Four hours, because that is the standard timebox"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The four-hour Sprint Review timebox applies to a one-month Sprint; for shorter Sprints the event is usually shorter, which makes two hours a sensible maximum for a two-week Sprint. The Guide does not define a rigid per-week formula, but it does not allow unlimited duration either.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-023",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about the 'How will the chosen work get done?' topic of Sprint Planning are correct? (Choose two.)",
+  "options": [
+   "The Developers plan the work needed to create an Increment that meets the Definition of Done",
+   "Selected items are often decomposed into units of work of one day or less",
+   "The Product Owner assigns the resulting tasks to individual Developers",
+   "The Scrum Master approves the technical approach before the Sprint starts"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "In the 'How' topic the Developers decide, for each selected item, the work needed to produce an Increment meeting the Definition of Done, frequently decomposing items into work of a day or less. How this is done is at the sole discretion of the Developers, so neither the Product Owner nor the Scrum Master assigns or approves their plan.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-024",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During Sprint Planning the Developers find they can only break down the first few days of work into detailed units. What should they do?",
+  "options": [
+   "Extend Sprint Planning beyond its timebox until every item is fully decomposed",
+   "Select fewer Product Backlog items so that the whole Sprint can be planned in detail up front",
+   "Finish planning with the detail they have and continue decomposing work throughout the Sprint",
+   "Ask the Scrum Master to decompose the remaining items on their behalf"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Sprint Planning only requires enough decomposition for the Developers to start and to be confident in their forecast; the Sprint Backlog is updated throughout the Sprint as more is learned. Extending the timebox is not allowed, artificially shrinking the forecast wastes capacity, and the Scrum Master does not plan the work for the Developers.",
+  "reference": "Scrum Guide 2020 - Sprint Planning"
+ },
+ {
+  "id": "D3-025",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Sprint Goal has become obsolete because the company changed direction two days into a four-week Sprint. What should happen?",
+  "options": [
+   "The Sprint Goal is rewritten mid-Sprint by the Developers to match the new direction",
+   "The Developers continue, since the Sprint Backlog was already committed",
+   "The Product Owner may cancel the Sprint, and a new Sprint Planning is held to start the next Sprint",
+   "The Scrum Master extends the Sprint so a new goal can be added"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "A Sprint may be cancelled if the Sprint Goal becomes obsolete, and only the Product Owner has that authority. Sprints are never extended, and quietly rewriting the Sprint Goal mid-Sprint undermines the transparency a cancellation provides.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-026",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following are true about the Daily Scrum? (Choose two.)",
+  "options": [
+   "It is timeboxed to 15 minutes",
+   "It must follow a strict three-question format",
+   "It improves communication and often removes the need for other meetings",
+   "The Scrum Master must facilitate it every day"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "The Daily Scrum is a 15-minute event that improves communication, identifies impediments and reduces the need for other meetings. The 2020 Scrum Guide removed the mandatory three-question structure, and the Developers may choose any structure; the Scrum Master ensures the event happens but need not run it.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-027",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is produced as output of Sprint Planning?",
+  "options": [
+   "An approved Increment",
+   "A signed scope agreement between the Product Owner and the Developers",
+   "A detailed project plan for the release",
+   "The Sprint Backlog, consisting of the Sprint Goal, selected items, and a plan for delivering them"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Sprint Planning results in the Sprint Backlog: the Sprint Goal (why), the selected Product Backlog items (what), and the plan for delivering them (how). The Increment emerges during the Sprint, and Scrum does not use contractual scope agreements between team members.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-028",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Scrum events other than the Sprint are described as formal opportunities for what?",
+  "options": [
+   "Inspection and adaptation of the Scrum artifacts",
+   "Negotiating deadlines with stakeholders",
+   "Measuring the productivity of individual team members",
+   "Reporting status to the Product Owner"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Each event is a formal opportunity to inspect and adapt the Scrum artifacts, which is why skipping an event removes transparency and loses an opportunity to improve. Status reporting and individual productivity measurement are not their purpose.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-029",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team decides to skip the Sprint Retrospective because the Sprint went smoothly. What is the most accurate assessment?",
+  "options": [
+   "This is acceptable because Retrospectives are only required when problems occur",
+   "Skipping the event reduces transparency and removes an opportunity to inspect and adapt",
+   "This is acceptable if the team holds a longer Retrospective next Sprint",
+   "This is acceptable if the Scrum Master documents the decision"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Failing to hold an event as prescribed results in lost opportunities to inspect and adapt, and events exist to create transparency. Even a smooth Sprint offers learning about how to increase quality and effectiveness.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-030",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During the Sprint Review, stakeholders provide feedback suggesting significant changes to the product direction. What is the expected outcome?",
+  "options": [
+   "The Developers immediately start building the requested changes",
+   "The current Sprint is extended to incorporate the feedback",
+   "The Product Backlog is adapted to reflect new opportunities",
+   "The feedback is deferred to an annual planning cycle"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Review results in a revised Product Backlog that reflects new opportunities arising from the collaboration with stakeholders. Sprints are never extended, and work begins only after the Product Owner orders the items and a later Sprint Planning selects them.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-031",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "How many events are defined in Scrum, including the Sprint?",
+  "options": [
+   "Three",
+   "Four",
+   "Six",
+   "Five"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Scrum defines five events: the Sprint, Sprint Planning, the Daily Scrum, the Sprint Review and the Sprint Retrospective. Product Backlog refinement is an ongoing activity, not a sixth event.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-032",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team's Daily Scrum regularly runs 40 minutes because the Developers solve technical problems in detail during it. What should the Scrum Master do?",
+  "options": [
+   "Coach the Developers to respect the 15-minute timebox and continue detailed discussions afterwards",
+   "Extend the Daily Scrum timebox to 45 minutes in the team's working agreement",
+   "Cancel the Daily Scrum and rely on the Sprint Backlog for transparency",
+   "Accept it, since solving problems is more valuable than respecting a timebox"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Daily Scrum is timeboxed to 15 minutes; Developers often meet immediately afterwards for detailed discussions, adaptation or replanning. The timebox cannot be extended by local agreement, and cancelling the event removes a key inspection point.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-033",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about Scrum Master and Product Owner involvement in the Daily Scrum are correct? (Choose two.)",
+  "options": [
+   "The Product Owner participates as a Developer when actively working on Sprint Backlog items",
+   "The Scrum Master ensures the event happens, but the Developers are responsible for conducting it",
+   "The Scrum Master must facilitate and take notes at every Daily Scrum",
+   "The Product Owner must attend daily so the Developers can report progress"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "If the Scrum Master or Product Owner are actively working on items in the Sprint Backlog, they participate in the Daily Scrum as Developers. The Scrum Master ensures the event takes place and stays within its timebox, but the Developers own and run it, and no reporting to the Product Owner is required.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-034",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which statements correctly describe what may change during a Sprint? (Choose two.)",
+  "options": [
+   "Scope may be clarified and renegotiated between the Product Owner and the Developers as more is learned",
+   "Quality goals may be lowered to meet the Sprint Goal",
+   "The Sprint Goal may be replaced whenever stakeholders request it",
+   "The Sprint Backlog may be updated by the Developers as new work is discovered"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "explanation": "Scope may be clarified and renegotiated with the Product Owner as more is learned, and the Developers modify the Sprint Backlog throughout the Sprint as they learn more. Quality does not decrease, and the Sprint Goal is not swapped out on stakeholder demand.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-035",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event enables the Developers to inspect progress toward the Sprint Goal and adapt the Sprint Backlog?",
+  "options": [
+   "The Sprint Review",
+   "The Daily Scrum",
+   "Sprint Planning",
+   "Product Backlog refinement"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work. The Sprint Review inspects the Increment and the Product Backlog instead.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-036",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Why does Scrum limit a Sprint to one month or less? (Choose three.)",
+  "options": [
+   "It limits the risk of cost and effort to a smaller time frame",
+   "It keeps the planning horizon short enough that the Sprint Goal is unlikely to become invalid",
+   "It prevents complexity and risk from rising unchecked",
+   "It guarantees that all forecast work is delivered each Sprint",
+   "It aligns delivery with monthly budget approval cycles"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "A horizon longer than a month can invalidate the Sprint Goal, increase complexity and raise risk, so Sprints are capped at one month to limit risk of cost and effort to a smaller time frame. No Sprint length guarantees delivery of a forecast, and Scrum's cadence is not driven by budget cycles.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-037",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During Sprint Planning, how do the Developers decide how to turn selected Product Backlog items into a done Increment?",
+  "options": [
+   "The Product Owner breaks items into tasks and assigns owners",
+   "A technical lead outside the Scrum Team creates the technical design",
+   "They self-manage the decomposition, often into units of one day or less",
+   "The Scrum Master assigns tasks based on individual skills"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "For each selected item the Developers plan the work needed to create an Increment meeting the Definition of Done, often by decomposing items into work of one day or less. How this is done is at the sole discretion of the Developers; nobody assigns their work.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-038",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team finishes all Sprint Backlog items three days before the Sprint ends. What is the best course of action?",
+  "options": [
+   "Use the remaining days for unrelated personal training to avoid idle time",
+   "Ask the Scrum Master to shorten future Sprints permanently",
+   "End the Sprint early and start the next one, since the work is done",
+   "Work with the Product Owner to select additional valuable work and continue until the Sprint ends"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Sprints are fixed-length and do not end early simply because the selected work is finished; the Scrum Team can collaborate with the Product Owner to pull more valuable work or invest in refinement and improvement. A pattern of early completion may be discussed in the Retrospective, but it does not change the current Sprint's length.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-039",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about the Sprint Review attendees is most accurate?",
+  "options": [
+   "The Scrum Team and key stakeholders attend and collaborate on what was accomplished and what to do next",
+   "Only the Product Owner and stakeholders attend; the Developers prepare slides",
+   "Attendance is limited to people who have approval authority over the product",
+   "Only the Scrum Team attends, to protect confidentiality"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed collaboratively. Excluding the Developers or limiting attendance to approvers turns the working session into a presentation or a gate.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-040",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event is held to plan the work of the upcoming Sprint?",
+  "options": [
+   "The Sprint Review",
+   "Sprint Planning",
+   "The Daily Scrum",
+   "Product Backlog refinement"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Sprint Planning initiates the Sprint by laying out the work to be performed. Refinement prepares Product Backlog items ahead of time but is not the event where the Sprint is planned.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-041",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Developers discover halfway through the Sprint that the selected work is much larger than expected and the Sprint Goal is at risk. What should they do first?",
+  "options": [
+   "Wait until the Sprint Review and report the shortfall there",
+   "Work overtime until the forecast is complete",
+   "Collaborate with the Product Owner to renegotiate the scope of the Sprint Backlog while preserving the Sprint Goal",
+   "Reduce the Definition of Done so the items can be marked complete"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "As more is learned, the Sprint Backlog's scope may be clarified and renegotiated with the Product Owner, keeping the Sprint Goal intact. Lowering quality, hiding problems until the Review, or relying on overtime all damage transparency and sustainability.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-042",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following happen during the Sprint Review? (Choose three.)",
+  "options": [
+   "The Scrum Team and stakeholders inspect the outcome of the Sprint",
+   "Progress toward the Product Goal is discussed",
+   "The Product Backlog is adapted based on new information",
+   "The Sprint Backlog for the next Sprint is finalized",
+   "The Definition of Done is formally approved by stakeholders"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "The Sprint Review inspects the outcome of the Sprint, discusses progress toward the Product Goal and results in an adjusted Product Backlog. The next Sprint Backlog is created in Sprint Planning, and the Definition of Done is not a stakeholder approval item.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-043",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What does the Product Owner do to prepare for Sprint Planning?",
+  "options": [
+   "Create the Sprint Goal alone and announce it at the start of the event",
+   "Produce a detailed task breakdown for the Developers to follow",
+   "Assign Product Backlog items to specific Developers",
+   "Ensure attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal. Task breakdown and item selection belong to the Developers, and the Sprint Goal is crafted together.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-044",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team holds a separate weekly two-hour 'project status meeting' with the Scrum Master, in addition to all Scrum events. What is the best assessment?",
+  "options": [
+   "Scrum events are designed to create regularity and minimize other meetings, so this meeting's value and purpose should be inspected",
+   "It is forbidden by Scrum, so the Scrum Master must cancel it immediately without discussion",
+   "It should replace the Daily Scrum to reduce total meeting time",
+   "It is required to keep management informed and is therefore good practice"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Scrum's events exist to create regularity and minimize the need for meetings not defined in Scrum, so a recurring status meeting is a signal to inspect what need it serves and whether existing events can meet it. The Scrum Master coaches rather than issuing unilateral bans, and no additional meeting can replace the Daily Scrum.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-045",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which of the following best describes a timebox in Scrum?",
+  "options": [
+   "A minimum duration that an event must reach",
+   "A maximum duration for an event, which may finish earlier if its purpose is achieved",
+   "A fixed duration that must always be used entirely",
+   "A guideline that teams may extend by agreement"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Scrum events are timeboxed to a maximum duration; if the purpose is achieved sooner the event can end earlier. The timebox may not be exceeded by local agreement.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-046",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who is responsible for ensuring that the Scrum events take place and are positive and productive?",
+  "options": [
+   "The Product Owner",
+   "The Developers collectively",
+   "The Scrum Master",
+   "The organization's agile coach"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Scrum Master is accountable for ensuring that all Scrum events take place and that they are positive, productive and kept within the timebox. This does not mean the Scrum Master must personally facilitate every event.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-047",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team wants to hold their Sprint Retrospective before the Sprint Review so the Developers can leave early on the last day. What should the Scrum Master advise?",
+  "options": [
+   "The Retrospective can be moved to the first day of the next Sprint instead",
+   "The two events should simply be merged into one to save time",
+   "It is acceptable because the order of events is not defined",
+   "The Retrospective occurs after the Sprint Review and concludes the Sprint, so the proposed order loses valuable input"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint Retrospective concludes the Sprint and takes place after the Sprint Review, so that stakeholder feedback and Review outcomes can inform the team's improvement discussion. Reordering or merging the events removes that input and blurs their distinct purposes.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-048",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "What is the relationship between the Sprint Review and the release of the Increment?",
+  "options": [
+   "Increments may be delivered to stakeholders before the end of the Sprint; the Review is not a release gate",
+   "Releases always happen immediately after the Sprint Review",
+   "The Sprint Review exists to obtain the release approval signature",
+   "An Increment may only be released after being shown at the Sprint Review"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Multiple Increments may be created within a Sprint and can be delivered before the Sprint ends; the Sprint Review should never be considered a gate to releasing value. Treating it as an approval step delays feedback and value delivery.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-049",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "During which event does the Scrum Team plan ways to increase quality and effectiveness?",
+  "options": [
+   "The Sprint Review",
+   "The Sprint Retrospective",
+   "Sprint Planning",
+   "The Daily Scrum"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Retrospective is the event in which the Scrum Team inspects how the last Sprint went and plans ways to increase quality and effectiveness. The other events have different inspection targets.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-050",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "The Developers propose to drop the Daily Scrum because they sit together and talk constantly. What is the best response from the Scrum Master?",
+  "options": [
+   "Agree, since constant communication achieves the same purpose",
+   "Agree, provided the Developers send a written summary to the Product Owner instead",
+   "Explain that the Daily Scrum is a required event that provides a focused inspection of progress toward the Sprint Goal",
+   "Replace it with a weekly 30-minute meeting as a compromise"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Daily Scrum is one of Scrum's prescribed events and provides a daily, focused inspection of progress toward the Sprint Goal with adaptation of the Sprint Backlog. Ad-hoc conversation is valuable, but it does not replace the formal inspect-and-adapt opportunity.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-051",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which statements about Sprint cancellation are correct? (Choose two.)",
+  "options": [
+   "A Sprint is cancelled when the Sprint Goal becomes obsolete",
+   "Sprint cancellations are common and should be used to manage changing priorities",
+   "Only the Product Owner has the authority to cancel a Sprint",
+   "The Scrum Master cancels the Sprint when the Developers cannot finish the forecast"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "A Sprint may be cancelled if the Sprint Goal becomes obsolete, and only the Product Owner has the authority to do so. Cancellations are traumatic and rare, and an unfinished forecast is handled by renegotiating scope, not by cancelling.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-052",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What should the Developers do with the remaining incomplete Product Backlog items at the end of a Sprint?",
+  "options": [
+   "Mark them done with a note that testing is pending",
+   "Extend the Sprint until they are completed",
+   "Automatically carry them into the next Sprint as committed work",
+   "Return them to the Product Backlog, where the Product Owner re-orders them"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Work that is not done returns to the Product Backlog and the Product Owner decides its future ordering; it is not automatically re-selected. Items are never marked done without meeting the Definition of Done, and Sprints are not extended.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-053",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about Product Backlog refinement are correct? (Choose two.)",
+  "options": [
+   "It is an ongoing activity that breaks down and further defines Product Backlog items",
+   "The Developers who will perform the work are responsible for sizing the items",
+   "It is a formal Scrum event that must be timeboxed each Sprint",
+   "It must consume a fixed ten percent of the Developers' capacity"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Refinement is an ongoing activity rather than one of the five Scrum events, and it adds detail by breaking items into smaller, more precise ones. The Developers who will do the work are responsible for the sizing, and the 2020 Scrum Guide prescribes no fixed timebox or capacity percentage.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-054",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who attends Sprint Planning?",
+  "options": [
+   "The entire Scrum Team, with others optionally invited for advice",
+   "The Scrum Team plus all stakeholders, who must approve the plan",
+   "The Developers only",
+   "The Product Owner and the Developers only"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Sprint Planning is attended by the whole Scrum Team, and the team may invite other people to provide advice. Stakeholders do not approve the Sprint plan.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-055",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team's Sprint Reviews consist of a 60-slide presentation by the Product Owner with no working software shown. What is the most significant problem?",
+  "options": [
+   "The presentation is too long for the timebox",
+   "Stakeholders cannot inspect a real Increment, so inspection and adaptation are ineffective",
+   "The Product Owner should not speak at the Sprint Review",
+   "The Developers should have produced the slides instead"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Review is a working session where the actual outcome of the Sprint is inspected so the Product Backlog can be adapted with real information. Without a tangible Increment there is nothing meaningful to inspect, and empiricism breaks down.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-056",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How long should Sprint Planning be for a two-week Sprint?",
+  "options": [
+   "No more than one hour",
+   "Always exactly four hours",
+   "Usually shorter than eight hours; around four hours is a common maximum",
+   "At least eight hours to be thorough"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The eight-hour timebox applies to a one-month Sprint; for shorter Sprints the event is usually shorter, so roughly four hours is a reasonable maximum for two weeks. The Guide gives a maximum rather than a mandatory fixed duration.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-057",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What makes a Sprint Goal valuable during the Sprint?",
+  "options": [
+   "It guarantees that all forecast work will be delivered",
+   "It allows the Product Owner to measure individual performance",
+   "It lists every Product Backlog item the Developers must finish",
+   "It provides focus and coherence, encouraging the Scrum Team to work together rather than on separate initiatives"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint Goal creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives. It is a single objective, not an exhaustive item list or a performance measurement tool.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-058",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Developers complete only half of the forecast work, but the Sprint Goal is met. How should this Sprint be regarded?",
+  "options": [
+   "As a success with respect to the Sprint Goal; remaining items return to the Product Backlog for re-ordering",
+   "As incomplete until the remaining items are finished in the next Sprint",
+   "As a reason for the Product Owner to cancel the next Sprint",
+   "As a failure, because the forecast was not delivered"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Sprint Goal is the commitment for the Sprint, and achieving it means the Sprint delivered its intended value even if not every forecast item was completed. Unfinished items go back to the Product Backlog where the Product Owner decides their ordering.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-059",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following are intended outcomes of the Sprint Retrospective? (Choose two.)",
+  "options": [
+   "Identified improvements that will increase the Scrum Team's quality and effectiveness",
+   "The most impactful improvements added to the Sprint Backlog of the next Sprint",
+   "A formally signed-off Increment ready for release",
+   "A release plan approved by key stakeholders"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "The Retrospective identifies improvements to quality and effectiveness, and the most impactful ones may be added to the next Sprint Backlog so they are acted upon quickly. Sign-off and stakeholder release approval are not Scrum concepts and certainly not Retrospective outcomes.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-060",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event is specifically for the Developers to plan their next 24 hours of work?",
+  "options": [
+   "Sprint Planning",
+   "The Daily Scrum",
+   "The Sprint Retrospective",
+   "The Sprint Review"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Daily Scrum is held each day of the Sprint for the Developers to inspect progress toward the Sprint Goal and adapt the Sprint Backlog, adjusting the upcoming planned work. The other events have longer horizons or different purposes.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-061",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following are addressed under the topic 'What can be done this Sprint?' during Sprint Planning? (Choose two.)",
+  "options": [
+   "The Developers select Product Backlog items to include in the Sprint",
+   "The Developers decompose items into tasks of one day or less",
+   "The Developers discuss with the Product Owner to refine selected items and increase confidence",
+   "The Scrum Team formulates the Sprint Goal from scratch without reference to the Product Goal"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "In the 'What' topic, the Developers select items for the Sprint and may refine them with the Product Owner to increase confidence. Decomposition into day-sized work belongs to the 'How' topic, and the Sprint Goal is related to the Product Goal rather than created in isolation.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-062",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "An organization requires a one-week 'hardening Sprint' after every three development Sprints to stabilize the product. What is the Scrum Master's best assessment?",
+  "options": [
+   "The Product Owner should cancel every fourth Sprint to allow for stabilization",
+   "Hardening Sprints are an acceptable scaling practice when quality is low",
+   "This indicates the Definition of Done is too weak; every Sprint should produce a usable Increment",
+   "The team should extend each normal Sprint to one month instead"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Each Sprint must produce at least one usable Increment meeting the Definition of Done, so a separate stabilization Sprint signals that the Definition of Done does not reflect release quality. The remedy is strengthening the Definition of Done, not inserting non-value-producing Sprints.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-063",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who may change the Sprint Backlog during the Sprint?",
+  "options": [
+   "Any stakeholder with sufficient authority",
+   "The Scrum Master, when scope must be reduced",
+   "The Product Owner, since it derives from the Product Backlog",
+   "The Developers"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint Backlog belongs to the Developers, who update it throughout the Sprint as more is learned. Others may influence it only through conversation with the Developers, typically via the Product Owner renegotiating scope.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-064",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the purpose of the Sprint?",
+  "options": [
+   "To create a fixed-length period in which ideas are turned into value",
+   "To give management a predictable reporting interval",
+   "To allow the Developers to work without interruption from the Product Owner",
+   "To batch up releases so they can be delivered quarterly"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Sprints are the heartbeat of Scrum, fixed-length events where ideas are turned into value. They are not reporting intervals, isolation periods, or batching mechanisms.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-065",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A new Scrum Master notices the team holds the Daily Scrum at a different time each day based on availability. What is the main downside?",
+  "options": [
+   "Scrum forbids any flexibility in team working agreements",
+   "The lack of a consistent time adds coordination overhead and reduces the regularity the event is meant to provide",
+   "The Product Owner cannot track individual task assignments",
+   "The Scrum Master cannot report accurate burn-down figures to management"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Daily Scrum is held at the same time and place every day to reduce complexity and the cost of coordination. Constantly renegotiating the time adds waste and erodes the event's regularity.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-066",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Product Owner is frequently unavailable during the Sprint, so the Developers wait until the Sprint Review to clarify requirements. What is the biggest consequence?",
+  "options": [
+   "The Scrum Master should take over the Product Owner accountability",
+   "The Sprint Review becomes shorter because questions are batched",
+   "Inspection and adaptation are delayed to the end of the Sprint, increasing waste and risk to the Sprint Goal",
+   "The Developers must add the questions to the Product Backlog"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum relies on frequent inspection and adaptation throughout the Sprint; delaying clarification to the Sprint Review means work may be built on wrong assumptions and the Sprint Goal is endangered. The Scrum Master should coach on availability rather than assume the Product Owner's accountability.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-067",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement best describes attendance of the Scrum Master at the Sprint Review?",
+  "options": [
+   "The Scrum Master is prohibited from attending so stakeholders can speak freely",
+   "The Scrum Master attends only to record action items for management",
+   "The Scrum Master must present the Increment to stakeholders",
+   "The Scrum Master attends as a member of the Scrum Team and ensures the event is positive and productive"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Scrum Master is part of the Scrum Team and is accountable for ensuring events happen and are positive and productive, including the Sprint Review. Presenting the Increment is typically done by the Scrum Team, especially the Developers and Product Owner.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-068",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "How often is the Daily Scrum held?",
+  "options": [
+   "Every working day of the Sprint",
+   "Only when the Developers detect an impediment",
+   "Twice a day for distributed teams",
+   "Once per week"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Daily Scrum is held each day of the Sprint. Its daily cadence is what makes it an effective inspection point for progress toward the Sprint Goal.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-069",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the best description of the Developers' use of the Daily Scrum structure?",
+  "options": [
+   "They must answer what they did, will do, and what blocks them",
+   "They may select whatever structure and techniques they want, as long as the event focuses on progress toward the Sprint Goal",
+   "They must walk the board item by item and report status to the Scrum Master",
+   "They must rotate the facilitator role daily as required by the Scrum Guide"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The 2020 Scrum Guide lets Developers select whatever structure and techniques they want, provided the Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan. The three-question format and facilitator rotation are optional practices, not rules.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-070",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which situations would most likely indicate a dysfunctional Sprint Review? (Choose three.)",
+  "options": [
+   "Stakeholders are asked to formally sign off the Increment before it can be released",
+   "The Product Backlog is adjusted based on stakeholder feedback",
+   "No stakeholders are invited and only the Scrum Team attends",
+   "The event is a one-way presentation with no discussion",
+   "The Scrum Team discusses what to do next given market changes"
+  ],
+  "correct": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "The Sprint Review is a collaborative working session with key stakeholders that adapts the Product Backlog; treating it as a sign-off gate, excluding stakeholders, or limiting it to a presentation are all dysfunctions. Adjusting the Product Backlog and discussing what to do next are exactly the intended outcomes.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-071",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "A Scrum Team changes from four-week Sprints to two-week Sprints. Which outcomes should be expected? (Choose two.)",
+  "options": [
+   "More frequent opportunities to inspect and adapt",
+   "The risk of cost and effort is limited to a smaller time frame",
+   "The Daily Scrum timebox shrinks proportionally to the Sprint length",
+   "A Sprint Goal becomes optional because the horizon is short"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Shorter Sprints generate more learning cycles and confine the risk of cost and effort to a smaller time frame. The Daily Scrum stays at 15 minutes regardless of Sprint length, and every Sprint still needs a Sprint Goal.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-072",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who participates in the Sprint Retrospective?",
+  "options": [
+   "The Scrum Master and the Product Owner",
+   "The Developers only, to allow candid discussion",
+   "The whole Scrum Team",
+   "The Scrum Team and key stakeholders"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Retrospective is for the whole Scrum Team: Developers, Product Owner and Scrum Master. Stakeholders are not participants, since the focus is on how the team itself works.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-073",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Developers want to use the Daily Scrum to assign tasks to each other for the day and have the Scrum Master track completion. What is the best coaching response?",
+  "options": [
+   "Suggest the Product Owner assign the tasks instead for better prioritization",
+   "Recommend extending the event to 30 minutes so assignments can be discussed properly",
+   "Encourage it, because task assignment improves accountability",
+   "Explain that the Developers self-manage their work and the event is for inspecting progress toward the Sprint Goal and adapting the plan"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Developers are self-managing and decide among themselves how to accomplish the work; the Daily Scrum inspects progress toward the Sprint Goal and adapts the Sprint Backlog. Having the Scrum Master or Product Owner assign and track individual tasks reintroduces command-and-control.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-074",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What happens to the Sprint Backlog items that are still in progress when the Sprint Retrospective ends?",
+  "options": [
+   "They return to the Product Backlog for the Product Owner to consider",
+   "They are deleted as waste",
+   "They remain in the Sprint Backlog, which carries over",
+   "They are automatically transferred to the next Sprint Backlog"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Sprint Backlog exists for the duration of one Sprint; incomplete work returns to the Product Backlog where it is re-ordered with everything else. Automatic carry-over bypasses the Product Owner's ordering decision.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-075",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During Sprint Planning, the Product Owner proposes work for the Sprint but the Developers believe it cannot all be completed. Who prevails?",
+  "options": [
+   "The Scrum Master, who mediates and decides",
+   "The Developers, who determine the amount of work selected",
+   "The stakeholders, who defined the deadline",
+   "The Product Owner, because they set priorities"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Only the Developers can assess what they can accomplish in the upcoming Sprint, so they decide how much work to select. The Product Owner influences order and value, and the Scrum Master facilitates without deciding.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-076",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team spends the entire Sprint Retrospective complaining about another department and ends with no actionable improvements. What should the Scrum Master do next time?",
+  "options": [
+   "Invite the other department's manager to attend and defend their position",
+   "Cancel future Retrospectives until the other department improves",
+   "Facilitate the event so the team identifies improvements within its influence and selects the most impactful ones to act on",
+   "Report the other department's failings to senior management as the Retrospective outcome"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Retrospective should end with identified improvements that the team will act on, with the most impactful ones added to the next Sprint Backlog. The Scrum Master facilitates so the discussion yields actionable change rather than unresolved blame.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-077",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about the Sprint Goal are correct? (Choose three.)",
+  "options": [
+   "It is created during Sprint Planning through collaboration of the whole Scrum Team",
+   "It provides focus and coherence, encouraging the team to work together",
+   "It remains fixed during the Sprint while scope may be renegotiated with the Product Owner",
+   "It is simply the list of all Product Backlog items selected for the Sprint",
+   "It is defined by stakeholders during the Sprint Review"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "The Scrum Team crafts the Sprint Goal in Sprint Planning; it creates coherence and focus and is the commitment for the Sprint, with scope clarified and renegotiated as learning occurs. It is a single objective rather than an item list, and stakeholders do not set it.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-078",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event marks the start of a Sprint?",
+  "options": [
+   "Product Backlog refinement",
+   "The Sprint Review of the previous Sprint",
+   "The Daily Scrum",
+   "Sprint Planning"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Sprint Planning initiates the Sprint by laying out the work to be performed. The previous Sprint's Review and Retrospective belong to the Sprint that is ending.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-079",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following are reasons the Scrum events create regularity? (Choose two.)",
+  "options": [
+   "They reduce the need for meetings not defined in Scrum",
+   "They guarantee that all forecast work is completed each Sprint",
+   "They provide a consistent cadence of inspection and adaptation",
+   "They allow management to approve work at predictable gates"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "Prescribed events create regularity and minimize the need for other meetings while providing formal, consistent opportunities to inspect and adapt. They do not guarantee delivery of a forecast and are not management approval gates.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-080",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team working on a one-month Sprint uses up the full eight hours of Sprint Planning but has not crafted a Sprint Goal. What is the most appropriate next step?",
+  "options": [
+   "Respect the timebox, start the Sprint, and inspect in the Retrospective why the team could not converge on a goal",
+   "Ask the Product Owner to dictate a Sprint Goal after the event",
+   "Continue the event beyond the timebox until a Sprint Goal is agreed",
+   "End the event and start the Sprint without a Sprint Goal, adding one later if needed"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Timeboxes are maximums and must not be exceeded, so the event ends; the deeper issue of why the team could not craft a goal is a prime topic for the Sprint Retrospective. Running a Sprint without a Sprint Goal is a serious dysfunction, but the fix is better preparation and refinement rather than a dictated goal or an extended event.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-081",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which of these is NOT an outcome of the Sprint Review?",
+  "options": [
+   "Insight into progress toward the Product Goal",
+   "A formally approved and signed-off Increment",
+   "Discussion of changes in the marketplace or product usage",
+   "A revised Product Backlog"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Review results in a revised Product Backlog and shared understanding of progress and context, but it is never a sign-off gate. Approval ceremonies conflict with the Product Owner's ongoing accountability for value and with releasing whenever it makes sense.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-082",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which behaviours are consistent with the Sprint being a fixed-length event? (Choose two.)",
+  "options": [
+   "The Sprint ends on its scheduled date even if some forecast items remain unfinished",
+   "A new Sprint begins immediately after the previous Sprint concludes",
+   "The Sprint is extended by a few days when the Sprint Goal is almost achieved",
+   "The Sprint is ended early as soon as all selected items are done"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Sprints have a fixed length and end on schedule, with unfinished work returning to the Product Backlog, and the next Sprint starts immediately afterwards. Extending a Sprint or ending it early breaks the cadence that makes inspection and forecasting reliable; only the Product Owner may cancel a Sprint, and only because the Sprint Goal is obsolete.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-083",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which artifact is created during Sprint Planning?",
+  "options": [
+   "The Increment",
+   "The Definition of Done",
+   "The Sprint Backlog",
+   "The Product Backlog"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Backlog, composed of the Sprint Goal, selected Product Backlog items and the delivery plan, is created in Sprint Planning. The Product Backlog is ongoing, the Increment emerges during the Sprint, and the Definition of Done is a standing commitment to quality.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-084",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "During the Sprint Review a stakeholder states that a completed feature does not meet their needs at all. What is the most Scrum-consistent interpretation?",
+  "options": [
+   "The Developers must fix it before the Sprint officially closes",
+   "The Product Owner should have prevented the feedback by approving the design earlier",
+   "The Sprint failed and should be repeated",
+   "This is valuable empirical feedback; the Product Backlog is adapted accordingly"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint Review exists precisely to surface this kind of feedback so the Product Backlog can be adapted with real information. Learning that something is not valuable is a success of empiricism, not a failed Sprint, and no Sprint is repeated.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-085",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "The Scrum Master is on vacation during a Sprint. What should happen to the Scrum events?",
+  "options": [
+   "The events continue; the Scrum Team is responsible for holding them",
+   "Only the Daily Scrum continues; the other events are postponed",
+   "All events are cancelled until the Scrum Master returns",
+   "A manager temporarily chairs all the events"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Master is accountable for ensuring events take place, but the events belong to the Scrum Team and are not dependent on one person being present. Postponing events would lose essential inspect-and-adapt opportunities.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-086",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about the Sprint are correct? (Choose three.)",
+  "options": [
+   "All the work necessary to achieve the Product Goal happens within Sprints",
+   "A new Sprint starts immediately after the conclusion of the previous Sprint",
+   "No changes are made that would endanger the Sprint Goal",
+   "The Sprint ends as soon as the Sprint Goal is achieved",
+   "Quality goals may be reduced when the deadline is tight"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "All work needed to reach the Product Goal happens within Sprints, a new Sprint begins immediately after the previous one ends, and no changes endangering the Sprint Goal are made. Sprints are fixed-length and do not end early, and quality does not decrease.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-087",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Developers regularly leave the Daily Scrum without a clear plan for the day. What inspection should the Scrum Master encourage?",
+  "options": [
+   "Whether the Sprint Backlog contains enough tasks to fill everyone's capacity",
+   "Whether the Daily Scrum produces an actionable plan for the next day of work toward the Sprint Goal",
+   "Whether each Developer reported their status completely",
+   "Whether the Product Owner attended to answer questions"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Daily Scrum should produce an actionable plan for the next day of work, adapting the Sprint Backlog as needed. Completeness of individual status reports is not the measure of a good Daily Scrum, and the Product Owner's attendance is not required.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-088",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which timeboxes are correct for a Scrum Team running one-month Sprints? (Choose three.)",
+  "options": [
+   "Sprint Planning: a maximum of eight hours",
+   "Sprint Review: a maximum of four hours",
+   "Sprint Retrospective: a maximum of three hours",
+   "Daily Scrum: a maximum of 30 minutes",
+   "Product Backlog refinement: a maximum of two hours"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "For a one-month Sprint, Sprint Planning is capped at eight hours, the Sprint Review at four hours and the Sprint Retrospective at three hours. The Daily Scrum is always 15 minutes, and refinement is an ongoing activity with no prescribed timebox.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-089",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which event is timeboxed to a maximum of three hours for a one-month Sprint?",
+  "options": [
+   "Sprint Planning",
+   "The Sprint Review",
+   "The Sprint Retrospective",
+   "Product Backlog refinement"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Sprint Retrospective has a maximum of three hours for a one-month Sprint. Sprint Planning is eight hours, the Sprint Review four hours, and refinement is not a timeboxed event.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-090",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team wants to hold a dedicated two-hour 'refinement event' every Sprint and treat it as a sixth Scrum event with a fixed timebox. How should the Scrum Master respond?",
+  "options": [
+   "Refuse to allow any refinement session, since it is not in the Scrum Guide",
+   "Replace the Sprint Retrospective with the refinement session",
+   "Approve it as a mandatory event so refinement is never skipped",
+   "Clarify that refinement is an ongoing activity, not a Scrum event; a regular session is an optional practice the team may choose"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Product Backlog refinement is an ongoing activity rather than one of the five Scrum events, so a recurring session is a legitimate complementary practice but not an official event or requirement. It must never displace a prescribed event such as the Retrospective.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-091",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What should the Scrum Team do if the Sprint Review reveals the product direction must change substantially?",
+  "options": [
+   "Adapt the Product Backlog and let the next Sprint Planning reflect the new direction",
+   "Continue with the existing plan until the quarter ends",
+   "Ask stakeholders to approve a formal change request before any adaptation",
+   "Cancel the current Sprint retroactively"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Sprint Review results in an adapted Product Backlog, and the next Sprint Planning uses that updated Product Backlog to craft a new Sprint Goal. The Sprint that just ended cannot be cancelled, and Scrum does not require change request approvals.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-092",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about meetings beyond the five Scrum events are correct? (Choose two.)",
+  "options": [
+   "The Developers often meet immediately after the Daily Scrum for detailed discussion and replanning",
+   "The Scrum events are designed to create regularity and minimize the need for meetings not defined in Scrum",
+   "Any meeting not defined in the Scrum Guide is forbidden",
+   "Additional meetings must be approved by the Product Owner in advance"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Developers self-manage and frequently meet right after the Daily Scrum for deeper discussion, adaptation or replanning. Scrum's events exist to create regularity and reduce the need for other meetings, but they neither forbid collaboration nor require anyone's approval.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-093",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which of the following would violate the rules of the Sprint? (Choose two.)",
+  "options": [
+   "The Developers add newly discovered work to the Sprint Backlog",
+   "A manager adds a new high-priority feature directly to the Sprint Backlog, making the Sprint Goal unachievable",
+   "The Product Owner and Developers clarify the scope of an item mid-Sprint",
+   "The Scrum Master extends the Sprint by one week so the forecast can be completed"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "explanation": "No changes may be made that endanger the Sprint Goal, and Sprints are fixed-length events that are never extended. Adding discovered work to the Sprint Backlog and renegotiating scope with the Product Owner are both normal and allowed.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-094",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the primary focus of the 'Why is this Sprint valuable?' topic in Sprint Planning?",
+  "options": [
+   "Estimating the business value of each Product Backlog item in currency",
+   "Defining the Sprint Goal that communicates why the Sprint is valuable to stakeholders",
+   "Calculating return on investment for the release",
+   "Agreeing the order of the entire Product Backlog"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "In this topic the Product Owner proposes how the product could increase value and the Scrum Team collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders. Financial modelling and full backlog ordering are not the purpose of the topic.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-095",
+  "domain": "Scrum Events",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Can the Sprint Retrospective end before its timebox expires?",
+  "options": [
+   "Only if the Product Owner agrees in advance",
+   "Only for Sprints shorter than two weeks",
+   "Yes, once its purpose has been achieved",
+   "No, the full three hours must always be used"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Timeboxes are maximum durations, so any Scrum event can conclude once its purpose is achieved. Consuming the entire timebox is never a requirement.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-096",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team's Definition of Done is set by organizational standards, and the team discovers in the Retrospective that it is insufficient for their product. What can they do?",
+  "options": [
+   "Ask the Product Owner to waive the organizational standard for this product",
+   "Nothing; organizational standards are fixed and cannot be exceeded",
+   "Lower their internal standard to match the organizational minimum for speed",
+   "Apply the organizational standard as a minimum and add stricter criteria of their own"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "If the Definition of Done is an organizational standard, Scrum Teams must follow it as a minimum and may add more stringent criteria of their own. The Retrospective is the natural event in which to inspect and strengthen the Definition of Done.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-097",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "What is the Scrum Master's responsibility regarding event timeboxes?",
+  "options": [
+   "To ensure events are positive, productive and kept within the timebox",
+   "To negotiate longer timeboxes with the Product Owner when needed",
+   "To record the actual duration of each event for management reporting",
+   "To cut discussions off exactly at the timebox regardless of context, without coaching"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Master ensures that events take place, are positive and productive, and are kept within the timebox. Timeboxes cannot be renegotiated, and the role is one of coaching and facilitating rather than reporting metrics.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-098",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A newly formed Scrum Team asks when Product Backlog refinement should happen. What is the best answer?",
+  "options": [
+   "Only during Sprint Planning",
+   "As an ongoing activity throughout the Sprint, whenever it helps prepare upcoming items",
+   "Only in a dedicated meeting on the second Wednesday of each Sprint",
+   "Only after the Sprint Review, once the Product Backlog has been adapted"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Refinement is an ongoing activity that happens as needed during the Sprint to break items down and add detail so they are ready for selection. Restricting it to one fixed slot or to Sprint Planning tends to make Sprint Planning long and low in confidence.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-099",
+  "domain": "Scrum Events",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "After a Sprint is cancelled, what happens to the completed and reviewed Product Backlog items from that Sprint?",
+  "options": [
+   "They are released automatically without any inspection",
+   "They are discarded along with the Sprint Backlog",
+   "They are reviewed, and if potentially releasable the Product Owner typically accepts them",
+   "They must be re-done in the next Sprint to confirm quality"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "When a Sprint is cancelled, any completed and done items are reviewed and the Product Owner typically accepts potentially releasable work; incomplete items return to the Product Backlog. Discarding valid work or rebuilding it would be pure waste.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ },
+ {
+  "id": "D3-100",
+  "domain": "Scrum Events",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement best captures the relationship between the Scrum events and empiricism?",
+  "options": [
+   "Events exist primarily to keep stakeholders informed of progress",
+   "Events replace the need for the Scrum artifacts",
+   "Events are administrative overhead that can be reduced once a team matures",
+   "Each event is designed to enable transparency, inspection and adaptation at a defined cadence"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Sprint contains the other events, each of which is a formal opportunity to inspect and adapt specific artifacts, and transparency makes that inspection meaningful. Events are not overhead to be removed with maturity, nor do they substitute for the artifacts themselves.",
+  "reference": "Scrum Guide 2020 - Scrum Events"
+ }
+]

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PSM I Reviewer — Professional Scrum Master I Practice</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" id="brandHome" role="button" tabindex="0">
+    <span class="logo">🧭</span>
+    <div>
+      <h1>PSM I Reviewer</h1>
+      <p>Professional Scrum Master I — practice bank</p>
+    </div>
+  </div>
+  <nav class="topnav">
+    <button class="navbtn" data-view="home">Home</button>
+    <button class="navbtn" data-view="browse">Browse</button>
+    <button class="navbtn" data-view="stats">Stats</button>
+    <button class="navbtn" id="themeBtn" title="Toggle theme">🌙</button>
+  </nav>
+</header>
+
+<main id="app">
+  <!-- HOME -->
+  <section id="view-home" class="view">
+    <div class="hero">
+      <h2>Ready for the exam?</h2>
+      <p class="muted">
+        <strong id="bankCount">0</strong> original questions across 5 domains, aligned with the
+        Scrum Guide 2020. Real exam: 80 questions, 60 minutes, 85% to pass.
+      </p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>📝 Practice Mode</h3>
+        <p>Instant feedback and explanation after each question. Filter by domain and difficulty.</p>
+        <div class="field">
+          <label for="pDomain">Domain</label>
+          <select id="pDomain"><option value="">All domains</option></select>
+        </div>
+        <div class="field">
+          <label for="pDiff">Difficulty</label>
+          <select id="pDiff">
+            <option value="">All</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="pCount">Questions</label>
+          <select id="pCount">
+            <option>10</option><option selected>20</option><option>40</option>
+            <option>80</option><option value="all">All matching</option>
+          </select>
+        </div>
+        <div class="field checks">
+          <label><input type="checkbox" id="pUnseen" /> Prioritize unseen questions</label>
+          <label><input type="checkbox" id="pWrong" /> Only my wrong / flagged</label>
+        </div>
+        <button class="primary" id="startPractice">Start practice</button>
+      </article>
+
+      <article class="card">
+        <h3>⏱️ Exam Simulation</h3>
+        <p>80 random questions, 60-minute timer, no feedback until you submit. Pass mark 85%.</p>
+        <ul class="facts">
+          <li>Mixed domains &amp; difficulty</li>
+          <li>Flag questions for review</li>
+          <li>Full answer review at the end</li>
+        </ul>
+        <button class="primary" id="startExam">Start mock exam</button>
+        <button class="ghost" id="resumeExam" hidden>Resume saved exam</button>
+      </article>
+
+      <article class="card">
+        <h3>🃏 Flashcards</h3>
+        <p>Fast recall drilling: read the question, reveal the answer and explanation.</p>
+        <div class="field">
+          <label for="fDomain">Domain</label>
+          <select id="fDomain"><option value="">All domains</option></select>
+        </div>
+        <button class="primary" id="startCards">Start flashcards</button>
+      </article>
+    </div>
+
+    <div class="progress-summary" id="homeProgress"></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="view-quiz" class="view" hidden>
+    <div class="quizbar">
+      <button class="ghost" id="quitQuiz">← Exit</button>
+      <div class="qmeta">
+        <span id="qProgressText">1 / 20</span>
+        <span class="pill" id="qDomain"></span>
+        <span class="pill" id="qDiff"></span>
+      </div>
+      <div class="qright">
+        <span id="timer" class="timer" hidden>60:00</span>
+        <button class="ghost" id="flagBtn" title="Flag for review">🔖</button>
+      </div>
+    </div>
+    <div class="bar"><div class="bar-fill" id="barFill"></div></div>
+
+    <article class="qcard">
+      <p class="qid" id="qId"></p>
+      <h2 id="qText"></h2>
+      <form id="qOptions" class="options"></form>
+      <div id="feedback" class="feedback" hidden></div>
+    </article>
+
+    <div class="quiznav">
+      <button class="ghost" id="prevBtn">Previous</button>
+      <button class="primary" id="submitBtn">Submit answer</button>
+      <button class="primary" id="nextBtn" hidden>Next →</button>
+      <button class="danger" id="finishBtn" hidden>Finish exam</button>
+    </div>
+    <div class="palette" id="palette" hidden></div>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section id="view-cards" class="view" hidden>
+    <div class="quizbar">
+      <button class="ghost" id="quitCards">← Exit</button>
+      <div class="qmeta"><span id="cProgressText"></span><span class="pill" id="cDomain"></span></div>
+      <div class="qright"><button class="ghost" id="cFlag" title="Flag">🔖</button></div>
+    </div>
+    <article class="qcard flashcard" id="flashcard">
+      <p class="qid" id="cId"></p>
+      <h2 id="cText"></h2>
+      <div id="cBack" hidden>
+        <ul class="options static" id="cOptions"></ul>
+        <div class="feedback ok"><strong>Explanation</strong><p id="cExp"></p></div>
+      </div>
+      <p class="muted tap-hint" id="tapHint">Click the card or press Space to reveal</p>
+    </article>
+    <div class="quiznav">
+      <button class="ghost" id="cPrev">← Previous</button>
+      <button class="primary" id="cNext">Next →</button>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="view-results" class="view" hidden>
+    <div class="scorebox" id="scorebox"></div>
+    <div class="domain-breakdown" id="breakdown"></div>
+    <div class="result-actions">
+      <button class="primary" id="reviewWrong">Review incorrect answers</button>
+      <button class="ghost" id="retryWrong">Retry incorrect only</button>
+      <button class="ghost" id="backHome">Back to home</button>
+    </div>
+    <div id="reviewList" class="review-list"></div>
+  </section>
+
+  <!-- BROWSE -->
+  <section id="view-browse" class="view" hidden>
+    <div class="browse-controls">
+      <input type="search" id="search" placeholder="Search questions, answers, explanations…" />
+      <select id="bDomain"><option value="">All domains</option></select>
+      <select id="bDiff">
+        <option value="">All difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <label class="inline"><input type="checkbox" id="bFlagged" /> Flagged only</label>
+      <span class="muted" id="browseCount"></span>
+    </div>
+    <div id="browseList" class="browse-list"></div>
+  </section>
+
+  <!-- STATS -->
+  <section id="view-stats" class="view" hidden>
+    <h2>Your progress</h2>
+    <div id="statsBody"></div>
+    <button class="danger" id="resetStats">Reset all progress</button>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>
+    Original study questions written for self-study, based on the publicly available
+    <a href="https://scrumguides.org/" target="_blank" rel="noopener">Scrum Guide 2020</a>.
+    Not affiliated with or endorsed by Scrum.org. Progress is stored locally in your browser.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

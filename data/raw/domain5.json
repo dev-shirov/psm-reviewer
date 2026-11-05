@@ -1,0 +1,1845 @@
+[
+ {
+  "id": "D5-001",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Six Scrum Teams are building one product together. How many Product Backlogs should exist?",
+  "options": [
+   "One per Scrum Team, consolidated by the Product Owner before each Sprint",
+   "One per Scrum Team, plus a master backlog maintained by a program manager",
+   "Two: one for features and one for technical work, split across the teams",
+   "One Product Backlog for the product, shared by all six teams"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Scrum states that multiple teams working on one product share one Product Backlog, one Product Owner and one Product Goal. Team-specific backlogs or a separate technical backlog fragment ordering and make overall value optimization impossible. A 'master backlog' owned by a program manager would remove accountability from the Product Owner.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Scaling"
+ },
+ {
+  "id": "D5-002",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "An organization is adding a second and third Scrum Team to an existing product. Which elements must remain singular across all three teams? (Choose two.)",
+  "options": [
+   "One Scrum Master shared by all three teams",
+   "One Product Owner accountable for maximizing the product's value",
+   "One Sprint length identical for every team in the organization",
+   "One Product Backlog with a single ordering",
+   "One Daily Scrum attended by all three teams together"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "explanation": "For a single product, Scrum requires one Product Owner and one Product Backlog so value can be optimized across all the work. A Scrum Master may serve more than one team but this is not required, synchronized Sprint lengths are a common convenience rather than a rule, and a joint Daily Scrum would defeat the event's purpose for each Developer group.",
+  "reference": "Scrum Guide 2020 - Product Owner / Product Backlog"
+ },
+ {
+  "id": "D5-003",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Four teams on the same product each produce their own Increment and integration happens in a separate 'integration Sprint' every quarter. What is the most important problem with this arrangement?",
+  "options": [
+   "The teams should have four Definitions of Done so each can optimize locally",
+   "The Scrum Masters should take over the integration work themselves",
+   "Quarterly integration is acceptable as long as the Product Owner approves it",
+   "Integration risk and defects accumulate invisibly, so no usable integrated Increment exists at the end of each Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Multiple teams on one product must produce a single integrated Increment that meets the Definition of Done by the end of each Sprint, otherwise empiricism breaks down because no one can inspect the real state of the product. Deferred integration hides defects and creates unpredictable rework. Local Definitions of Done and Scrum Masters doing the work would make the dysfunction worse.",
+  "reference": "Scrum Guide 2020 - Increment / Definition of Done"
+ },
+ {
+  "id": "D5-004",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Three teams on one product use different Definitions of Done, with one team excluding performance testing. What should the Scrum Master encourage?",
+  "options": [
+   "Each team keeping its own Definition of Done since teams are self-managing",
+   "The Product Owner deciding on behalf of the teams which tests are mandatory",
+   "Postponing performance testing to a dedicated hardening Sprint before release",
+   "The teams agreeing on a common Definition of Done that all of them apply, each team being free to make it stricter for its own work"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "When multiple teams work on the same product they must mutually define and comply with the same Definition of Done; individual teams may apply stricter criteria but never weaker ones. Self-management does not permit releasing an Increment of inconsistent quality. Hardening Sprints push quality work out of the Sprint and are an anti-pattern.",
+  "reference": "Scrum Guide 2020 - Definition of Done"
+ },
+ {
+  "id": "D5-005",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "How many Product Goals can a single product have active at one time in Scrum?",
+  "options": [
+   "One Product Goal at a time; the Scrum Team fulfills or abandons it before taking the next",
+   "One per Scrum Team working on the product",
+   "As many as the stakeholders request each quarter",
+   "One per Sprint, created during Sprint Planning"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Product Goal describes the future state of the product and a Scrum Team must fulfill or abandon one Product Goal before taking on the next. A per-Sprint objective is the Sprint Goal, not the Product Goal. Teams sharing a product share the same Product Goal.",
+  "reference": "Scrum Guide 2020 - Product Goal"
+ },
+ {
+  "id": "D5-006",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A manager proposes organizing five teams on one product by technical layer: a UI team, a services team and a database team. Why is this a concern for a Scrum Master?",
+  "options": [
+   "Component teams cannot deliver a done, valuable slice of product alone, creating dependencies and handoffs that delay value",
+   "Scrum forbids any form of specialization among Developers",
+   "Component teams make it impossible to hold a Sprint Retrospective",
+   "It would require five Product Owners instead of one"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Component teams each own a technical layer, so delivering any user-facing capability requires coordinating multiple teams, which creates handoffs, queues and partial Increments. Scrum does not forbid specialists, it requires the team collectively to have all skills to create a done Increment each Sprint. Retrospectives are still possible, they just surface the dependency pain.",
+  "reference": "Scrum Guide 2020 - Developers / Scaling anti-patterns"
+ },
+ {
+  "id": "D5-007",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Three teams share one Product Backlog. Each Sprint, several items turn out to need work from two teams, causing delays. What is the most effective long-term response?",
+  "options": [
+   "Appoint a dependency manager to schedule cross-team work in advance",
+   "Have the Product Owner order the backlog so that each team only ever gets independent items",
+   "Add a two-week buffer Sprint after every three Sprints to absorb delays",
+   "Help the teams reduce dependencies by broadening skills and reshaping team boundaries around end-to-end value, while coordinating openly in the meantime"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The durable fix is to lower the structural need for coordination by forming teams that can deliver end-to-end slices and by spreading skills, while using transparent cross-team coordination for remaining dependencies. A dependency manager and buffer Sprints institutionalize the problem instead of removing it. Ordering the backlog purely to avoid dependencies would subordinate value to team structure.",
+  "reference": "Scrum Guide 2020 - Developers / Scaling"
+ },
+ {
+  "id": "D5-008",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about Sprint Reviews when several teams build one product are consistent with Scrum? (Choose two.)",
+  "options": [
+   "The Sprint Review is a formal sign-off gate where stakeholders approve the release",
+   "The Product Backlog may be adjusted as a result of the discussion",
+   "Stakeholders inspect the integrated Increment and collaborate on what to do next",
+   "Each team should review only its own partial output with its own stakeholders",
+   "Only the Product Owner may speak to stakeholders during the event"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "explanation": "The Sprint Review is a working session in which the Scrum Team and stakeholders inspect the outcome and adapt the Product Backlog based on what was learned, and with multiple teams the object of inspection is the integrated Increment. It is not a sign-off gate, reviewing only partial outputs hides integration reality, and the whole Scrum Team collaborates with stakeholders.",
+  "reference": "Scrum Guide 2020 - Sprint Review"
+ },
+ {
+  "id": "D5-009",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Product Owner responsible for eight teams cannot keep the Product Backlog ordered and is becoming a bottleneck. Which option best preserves Scrum's accountabilities?",
+  "options": [
+   "Split the product into eight products with eight Product Owners regardless of how coupled they are",
+   "Let each Scrum Master order the portion of the backlog their team will work on",
+   "Create a committee that votes on Product Backlog order each Sprint",
+   "Keep one Product Owner accountable, while they delegate backlog refinement work and bring in people to help, and consider whether the product definition is too broad"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Product Owner remains a single accountable person but may have others do backlog work on their behalf, and an overloaded Product Owner is a signal to re-examine how the product is defined. Committees and Scrum Masters ordering work destroy the single point of accountability. Arbitrarily splitting a coupled product creates dependencies and sub-optimized value.",
+  "reference": "Scrum Guide 2020 - Product Owner"
+ },
+ {
+  "id": "D5-010",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "An organization adopts a scaling framework and immediately adds release trains, architecture boards and quarterly planning events. Developers report that nothing is delivered any faster. What should the Scrum Master emphasize first?",
+  "options": [
+   "That the scaling framework must be followed more rigorously before results appear",
+   "That the organization should return to a single team and abandon the product",
+   "That scaling frameworks are mandated by the Scrum Guide and must be configured correctly",
+   "That the fundamental constraint is the ability to produce a done, integrated Increment each Sprint, and added process layers do not remove that constraint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Scaling adds coordination overhead but does not solve the underlying need for teams to deliver an integrated, done Increment every Sprint, which is where flow is usually blocked. Scrum itself does not mandate any scaling framework. Adding more ceremony or abandoning the product avoids addressing the real impediment, often technical and organizational.",
+  "reference": "Scrum Guide 2020 - Increment / Professional Scrum competencies"
+ },
+ {
+  "id": "D5-011",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who is responsible for inviting the right stakeholders to the Sprint Review?",
+  "options": [
+   "The Scrum Master, as the organizer of all events",
+   "The project management office",
+   "The Developers, since they demonstrate the work",
+   "The Product Owner, who manages stakeholder collaboration for the product"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Product Owner represents the needs of stakeholders and is accountable for engaging the people whose feedback matters for the product. The Scrum Master helps the event be effective and may coach the Product Owner, but does not own stakeholder relationships. Scrum has no PMO accountability.",
+  "reference": "Scrum Guide 2020 - Product Owner / Sprint Review"
+ },
+ {
+  "id": "D5-012",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Stakeholders repeatedly approach Developers mid-Sprint with urgent requests. What is the best action by the Scrum Master?",
+  "options": [
+   "Instruct the Developers to accept any request from senior stakeholders",
+   "Block all stakeholder contact with the Developers permanently",
+   "Add all requests to the current Sprint Backlog so stakeholders feel heard",
+   "Help stakeholders understand that scope changes flow through the Product Owner, and that the Sprint Goal protects focus, while keeping open collaboration"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Only the Product Owner can change the Product Backlog and no change may endanger the Sprint Goal, so the Scrum Master coaches stakeholders toward the right channel without isolating the team. Accepting every request destroys focus, while an absolute communication ban removes valuable collaboration. Silently absorbing all requests undermines the Sprint Goal.",
+  "reference": "Scrum Guide 2020 - Sprint / Product Owner"
+ },
+ {
+  "id": "D5-013",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A business analyst acts as 'Product Owner' but must get every decision approved by a steering committee that meets monthly. What is the key dysfunction?",
+  "options": [
+   "The Product Owner is a proxy without the authority to decide, so backlog decisions are slow and the team cannot inspect and adapt quickly",
+   "Scrum forbids steering committees of any kind in an organization",
+   "A business analyst can never fulfill the Product Owner accountability",
+   "The team needs a second Product Owner to speed up approvals"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "For a Product Owner to succeed the whole organization must respect their decisions, and a proxy who cannot decide reintroduces delay and hand-offs that undermine empiricism. Scrum does not ban governance bodies, but it does require decision authority to rest with one person. A person's job title does not disqualify them; lack of authority does.",
+  "reference": "Scrum Guide 2020 - Product Owner"
+ },
+ {
+  "id": "D5-014",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which actions help a Scrum Master serve the organization in adopting Scrum? (Choose three.)",
+  "options": [
+   "Planning and advising Scrum implementations within the organization",
+   "Removing barriers between stakeholders and Scrum Teams",
+   "Assigning Product Backlog items to individual Developers",
+   "Approving which features the Product Owner releases",
+   "Leading, training and coaching the organization in its Scrum adoption"
+  ],
+  "correct": [
+   0,
+   1,
+   4
+  ],
+  "explanation": "The Scrum Master serves the organization by leading and coaching the adoption, planning and advising implementations, and removing barriers between stakeholders and Scrum Teams. Release decisions belong to the Product Owner, and the Developers themselves decide who does which work in the Sprint Backlog.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-015",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Executives ask for a monthly status report showing percentage completion per team. How should the Scrum Master respond?",
+  "options": [
+   "Refuse, because reporting is forbidden in Scrum",
+   "Delegate the report to the Developers so the Product Owner is not disturbed",
+   "Produce the report personally each month so the team is left alone",
+   "Explore what decisions the executives need to make, and offer transparency based on working Increments and actual outcomes rather than percentage complete"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Scrum Master serves the organization by helping stakeholders get the transparency they need, and a done Increment is a far more honest signal than an estimate of percentage complete. Scrum does not forbid reporting, but it discourages measures that create false confidence. Quietly producing reports makes the Scrum Master a secretary rather than a change agent.",
+  "reference": "Scrum Guide 2020 - Scrum Master / Empiricism"
+ },
+ {
+  "id": "D5-016",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which description best fits stakeholders in Scrum?",
+  "options": [
+   "Members of the Scrum Team who do not write code",
+   "Anyone who attends the Daily Scrum to monitor progress",
+   "Managers who approve the Sprint Backlog before the Sprint begins",
+   "People outside the Scrum Team with a valid interest in the product who collaborate most closely at the Sprint Review"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Stakeholders are people outside the Scrum Team who have an interest in the product, and the Sprint Review is the formal opportunity for them to inspect the Increment and collaborate on next steps. No one approves the Sprint Backlog, which belongs to the Developers. The Daily Scrum is for the Developers.",
+  "reference": "Scrum Guide 2020 - Sprint Review"
+ },
+ {
+  "id": "D5-017",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team's stakeholders never attend the Sprint Review, saying they are too busy. What is the best first step?",
+  "options": [
+   "Cancel the Sprint Review until attendance improves",
+   "Escalate to HR to make attendance mandatory",
+   "Replace the Sprint Review with a written status email",
+   "Help the Product Owner understand why stakeholders see no value in attending and make the event worth their time by inspecting real working functionality and real outcomes"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Low attendance is a symptom, usually that the event feels like a demo of little relevance or that the Increment is not truly usable; making the event valuable is the Scrum Master's coaching opportunity. The Sprint Review is a required event and cannot simply be cancelled or downgraded to email. Coercion rarely produces genuine collaboration.",
+  "reference": "Scrum Guide 2020 - Sprint Review / Scrum Master"
+ },
+ {
+  "id": "D5-018",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "After six months of Scrum, a company still releases only twice a year because of a separate change advisory board and a manual regression cycle. How should the Scrum Master treat this?",
+  "options": [
+   "As acceptable, because Scrum only requires a potentially releasable Increment, not a release",
+   "As a problem for the Developers to solve alone during the Sprint Retrospective",
+   "As a reason to lengthen Sprints to six months to match the release cadence",
+   "As an organizational impediment to be made transparent and worked on with leadership, since the delay prevents feedback and value delivery"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "While Scrum does not force a release every Sprint, a release constraint of this size blocks empirical feedback and value, so making it transparent and coaching leadership is core Scrum Master work for the organization. Lengthening Sprints reduces feedback further. Such systemic constraints are beyond what the Developers alone can fix.",
+  "reference": "Scrum Guide 2020 - Scrum Master / Increment"
+ },
+ {
+  "id": "D5-019",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "A Scrum Master notices they spend most of their week booking rooms, updating the task board for others and taking meeting minutes. Which statements are accurate? (Choose two.)",
+  "options": [
+   "The Scrum Master is accountable for the team's effectiveness and should focus on coaching, impediment removal and organizational change",
+   "This is the Scrum Master as secretary anti-pattern and limits their true contribution",
+   "Scrum requires the Scrum Master to record minutes of every event",
+   "Administrative tasks are the core of the Scrum Master accountability",
+   "The Scrum Master must maintain the Sprint Backlog because the Developers are too busy"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "The Scrum Master is a true leader accountable for the Scrum Team's effectiveness, serving through coaching, facilitation, impediment removal and organizational change, not clerical work. The Sprint Backlog is owned and updated by the Developers, and Scrum prescribes no minutes.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-020",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master identifies an impediment that requires changing a company-wide procurement policy. What is the most appropriate approach?",
+  "options": [
+   "Make the impact transparent with evidence, engage the people who own the policy, and coach for change while helping the team cope in the meantime",
+   "Instruct the Developers to bypass the policy quietly",
+   "Ignore it, since only team-level impediments are in scope",
+   "Wait until an executive notices the problem on their own"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Scrum Masters serve the organization and cause the removal of impediments, which often means influencing people they do not manage by making the cost visible and collaborating on change. Ignoring systemic impediments abandons a core part of the accountability. Bypassing policy secretly destroys trust and transparency.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-021",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A functional manager insists on attending the Daily Scrum and asking each Developer for a status update. What should the Scrum Master do?",
+  "options": [
+   "Allow it, because managers must be kept informed daily",
+   "Ask the Product Owner to run the Daily Scrum instead so the manager speaks to them",
+   "Cancel the Daily Scrum while the manager is interested in attending",
+   "Coach the manager on the purpose of the event and help them find other ways to get the information, ensuring the Daily Scrum stays the Developers' planning session"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "The Daily Scrum is for the Developers to inspect progress toward the Sprint Goal and adapt their plan; turning it into a status report to a manager undermines self-management. The Scrum Master coaches those involved so the event keeps its purpose and finds other transparency channels. Cancelling the event or reassigning facilitation does not address the behavior.",
+  "reference": "Scrum Guide 2020 - Daily Scrum"
+ },
+ {
+  "id": "D5-022",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "In Scrum, who is accountable for removing impediments that block the Developers' progress?",
+  "options": [
+   "The Scrum Master, who causes their removal",
+   "The project manager assigned to the team",
+   "The Product Owner, who sets priorities",
+   "The most senior Developer"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Master serves the Scrum Team by causing the removal of impediments to its progress, which may mean resolving them directly or enabling others to do so. Scrum defines no project manager accountability. The Product Owner focuses on value and the Product Backlog.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-023",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Leadership asks a Scrum Master to prove that the Scrum adoption is working. Which indicators give the most meaningful evidence? (Choose two.)",
+  "options": [
+   "Time from idea to value delivered to a customer",
+   "Number of Scrum events held per Sprint",
+   "Average velocity increase across all teams",
+   "Frequency with which usable Increments reach users and the resulting customer outcomes",
+   "Percentage of Developers certified in Scrum"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "explanation": "Evidence-based thinking focuses on value actually realized and on the ability to deliver, such as delivery frequency, customer outcomes and time to market, rather than on activity or output measures. Velocity is not part of Scrum and rises trivially by inflating estimates. Event counts and certifications measure compliance, not value.",
+  "reference": "Scrum Guide 2020 - Empiricism / Evidence-Based Management"
+ },
+ {
+  "id": "D5-024",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master is told by a director: 'Just make the teams follow the process; the organizational issues are not your concern.' What is the most professional response?",
+  "options": [
+   "Explain, with concrete examples, how organizational constraints limit the teams' ability to deliver value, and offer to work with leadership on them",
+   "Resign from the accountability immediately",
+   "Comply, focusing only on event attendance and board hygiene",
+   "Escalate anonymously to the company's board of directors"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Serving the organization is an explicit part of the Scrum Master accountability, and the professional approach is to make the cost of the constraints transparent and invite collaboration. Policing process compliance produces mechanical Scrum without benefit. Anonymous escalation or quitting at the first disagreement forgoes the chance to influence change.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-025",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Two Scrum Teams on one product disagree about an architectural approach and the dispute is delaying work. What is the most appropriate Scrum Master behavior?",
+  "options": [
+   "Decide the architecture personally to end the dispute",
+   "Escalate to the enterprise architecture board for a binding ruling",
+   "Ask the Product Owner to choose the technical design",
+   "Facilitate a conversation where both teams make their reasoning and constraints transparent and converge on a decision they will test empirically"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Developers are accountable for technical decisions, and the Scrum Master's role is to facilitate the conversation so a decision emerges and can be validated by building something. Deciding for them or handing the choice to the Product Owner removes self-management and technical accountability. External rulings may be slow and uninformed by the teams' direct experience.",
+  "reference": "Scrum Guide 2020 - Developers / Scrum Master"
+ },
+ {
+  "id": "D5-026",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the main difference between Scrum and traditional predictive project management regarding plans?",
+  "options": [
+   "Scrum replans continuously based on empirical evidence from working Increments, rather than following a detailed upfront plan",
+   "Scrum plans only once, at the start of the product",
+   "Scrum has no plans at all",
+   "Scrum plans in more detail upfront than waterfall but reviews it less often"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Scrum is founded on empiricism: decisions are based on what is observed, and the plan is adapted every Sprint, every Daily Scrum and at the Sprint Review. Scrum has plans at several levels, including the Sprint Backlog and the Product Backlog. Detailed upfront plans in complex work tend to be wrong rather than a source of control.",
+  "reference": "Scrum Guide 2020 - Empiricism"
+ },
+ {
+  "id": "D5-027",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A customer insists on a fixed scope, fixed date and fixed price contract for a complex product. Which approach best fits empirical delivery?",
+  "options": [
+   "Promise the full scope and manage change requests through a formal change control board",
+   "Estimate the whole backlog in detail first, then add a 40 percent buffer to be safe",
+   "Decline all contracts that mention a budget",
+   "Fix the budget and date while keeping scope variable and ordered by value, delivering the most valuable items first and letting the customer steer each Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "In complex work the realistic contract shape fixes time and money and varies scope, so the customer can continuously re-order remaining work and stop when enough value is delivered. Fixing everything and relabelling inevitable change as exceptions does not reduce uncertainty. Large upfront estimates with buffers give false precision and lock in waste.",
+  "reference": "Scrum Guide 2020 - Empiricism / Professional Scrum competencies"
+ },
+ {
+  "id": "D5-028",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which statements about forecasting in Scrum are correct? (Choose two.)",
+  "options": [
+   "A forecast fixes the Product Backlog for the rest of the release",
+   "The Product Owner must guarantee the forecast to stakeholders",
+   "A forecast is a probabilistic projection based on past empirical data, not a commitment",
+   "Forecast accuracy improves as more is learned and remaining work decreases",
+   "Scrum prescribes burndown charts as the forecasting tool"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "explanation": "Scrum Teams use past performance to project likely future progress, and such forecasts become more reliable as uncertainty is reduced, but they are never guarantees. The only commitment to deliver within a Sprint is the Sprint Goal, not a long-range forecast. Burndowns and similar charts are useful complementary practices, not Scrum elements.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Sprint"
+ },
+ {
+  "id": "D5-029",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A sponsor demands a precise date for delivery of 180 Product Backlog items. The team has completed three Sprints. What is the most honest and useful response?",
+  "options": [
+   "Offer a range of likely completion dates based on observed delivery so far, explain the assumptions, and commit to updating it every Sprint",
+   "Refuse to say anything about dates because Scrum does not predict the future",
+   "Give a single date derived from average velocity, since three Sprints is enough data",
+   "Promise the date the sponsor wants and manage scope quietly later"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Empiricism supports projecting a range with explicit assumptions and refreshing it as evidence accumulates, which gives the sponsor a basis for decisions without false precision. A single-point date from three data points conveys more certainty than the data supports. Silence is unhelpful and quiet scope manipulation destroys trust and transparency.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Empiricism"
+ },
+ {
+  "id": "D5-030",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Management compares two Scrum Teams by their velocity and rewards the one with the higher number. What is the primary problem?",
+  "options": [
+   "Velocity is an official Scrum metric that must only be reported to the Product Owner",
+   "Velocity should be measured in hours instead of points to be comparable",
+   "Velocity should be compared only across teams of the same size",
+   "Velocity numbers are team-relative and not comparable, and incentivizing them drives estimate inflation rather than value"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Velocity is not part of Scrum; where used it is a team-internal planning aid based on that team's own relative estimates, so cross-team comparison is meaningless. Making it a performance target predictably inflates estimates and reduces quality. Changing the unit does not make team-relative estimates comparable.",
+  "reference": "Scrum Guide 2020 - Empiricism / complementary practices"
+ },
+ {
+  "id": "D5-031",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which statement about velocity is accurate with respect to the Scrum Guide 2020?",
+  "options": [
+   "Velocity is not defined in the Scrum Guide; it is an optional complementary practice some teams use to help with forecasting",
+   "Velocity must be approved by the Product Owner before Sprint Planning",
+   "Velocity is a mandatory Scrum artifact measured each Sprint",
+   "Velocity replaces the Sprint Goal as the Sprint commitment"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Scrum Guide 2020 does not mention velocity, story points or burndown charts; they are complementary practices teams may adopt. The commitment for the Sprint Backlog is the Sprint Goal. Nothing about velocity requires Product Owner approval.",
+  "reference": "Scrum Guide 2020 - Scrum Theory / complementary practices"
+ },
+ {
+  "id": "D5-032",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A team's velocity dropped sharply for two Sprints after they added automated testing to their Definition of Done. How should the Scrum Master frame this to management?",
+  "options": [
+   "As a performance problem that requires replacing team members",
+   "As irrelevant, since velocity should never be discussed",
+   "As a reason to remove the automated testing from the Definition of Done",
+   "As a predictable short-term effect of raising quality, which reduces rework and improves sustainable delivery and predictability over time"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Strengthening the Definition of Done means more work is done per item, so a short-term output dip is expected while defect rates and rework fall, improving flow and predictability. Reverting the Definition of Done trades long-term capability for a vanity number. Treating it as a people problem misreads the cause.",
+  "reference": "Scrum Guide 2020 - Definition of Done / Increment"
+ },
+ {
+  "id": "D5-033",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "During release planning, a Product Owner must choose between two sets of Product Backlog items of similar cost. Which basis for the decision best reflects evidence-based thinking?",
+  "options": [
+   "The expected outcome and value for customers and the business, including the information each option would reveal",
+   "The number of story points each set represents",
+   "Which set was requested by the most senior stakeholder",
+   "Which set the Developers find technically more interesting"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Value is measured by outcomes for customers and the business, and in complex work the learning an option generates is itself valuable. Story point totals describe effort, not worth. Seniority of the requester and developer preference are not measures of value.",
+  "reference": "Scrum Guide 2020 - Product Owner / Evidence-Based Management"
+ },
+ {
+  "id": "D5-034",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which practices help a Product Owner manage a budget empirically on a long-running product? (Choose two.)",
+  "options": [
+   "Delivering the most valuable items first so that stopping at any point leaves maximum value delivered",
+   "Allocating a fixed share of each Sprint's budget to each stakeholder group",
+   "Requiring all Product Backlog items to be estimated in hours before funding",
+   "Funding the product incrementally and re-deciding continuation based on delivered value",
+   "Committing the full multi-year budget to a fixed scope upfront"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "explanation": "Incremental funding plus value-ordered delivery lets the organization capture value early and stop or redirect spend when returns fall, which matches empirical process control. Locking a multi-year budget to fixed scope assumes predictability that does not exist in complex work. Hour-based estimates of everything and per-stakeholder quotas optimize for the illusion of control or fairness rather than value.",
+  "reference": "Scrum Guide 2020 - Product Owner / Empiricism"
+ },
+ {
+  "id": "D5-035",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A vendor and customer sign a time-and-materials contract with a Scrum Team. The customer worries about getting value for money. Which mechanism in Scrum most directly addresses that worry?",
+  "options": [
+   "Detailed weekly timesheets reviewed by the customer",
+   "A penalty clause tied to velocity targets",
+   "A frequent, usable Increment inspected at every Sprint Review, letting the customer judge value and steer or stop at short intervals",
+   "A signed requirements specification baselined before the first Sprint"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Delivering a usable Increment each Sprint gives the customer real evidence of progress and the option to redirect or terminate with little exposure, which is stronger protection than paperwork. Timesheets measure effort, not value. Velocity penalties invite gaming and a baselined specification removes the ability to adapt.",
+  "reference": "Scrum Guide 2020 - Increment / Sprint Review"
+ },
+ {
+  "id": "D5-036",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A traditional project manager asks who in Scrum is responsible for the project's schedule, scope and cost tracking. What is the best answer?",
+  "options": [
+   "Those concerns are distributed: the Product Owner manages value and the Product Backlog, the Developers manage how work is done each Sprint, and the Scrum Team inspects and adapts every Sprint",
+   "The Scrum Master, who acts as the project manager",
+   "No one; Scrum does not care about cost or scope",
+   "A project management office that oversees the Scrum Team"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Scrum has no project manager; the accountabilities traditionally bundled into that role are distributed across the Product Owner, the Developers and the whole Scrum Team, with the Sprint cadence providing control. Scrum does care about cost and scope, but manages them empirically. The Scrum Master is not a project manager in disguise.",
+  "reference": "Scrum Guide 2020 - Scrum Team"
+ },
+ {
+  "id": "D5-037",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Why does Scrum favor short Sprints in environments of high uncertainty?",
+  "options": [
+   "Because they reduce the cost of the Scrum events",
+   "Because management can reassign Developers more often",
+   "Because they let the team avoid writing a Sprint Goal",
+   "Because they generate more frequent opportunities to inspect and adapt, limiting risk to the cost of one Sprint"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Shorter Sprints produce more learning cycles and cap the risk of going in a wrong direction to one Sprint's cost. Events are proportionally time-boxed, so shorter Sprints do not avoid them. Every Sprint still needs a Sprint Goal, and stable teams remain important.",
+  "reference": "Scrum Guide 2020 - The Sprint"
+ },
+ {
+  "id": "D5-038",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A team is asked to produce a detailed, task-level plan for the next six Sprints before work starts. What is the strongest argument against this?",
+  "options": [
+   "Planning is forbidden outside Sprint Planning",
+   "The Developers do not have time to plan",
+   "In complex work most of the detail will be invalidated by what is learned, so the effort creates waste and a false sense of control; detail is best added just in time",
+   "Only the Product Owner is allowed to plan beyond the current Sprint"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Empiricism assumes that knowledge emerges, so detailed long-range task plans decay quickly and the effort spent is largely wasted while encouraging unwarranted confidence. Scrum does allow longer-range planning, but at a level of detail proportional to certainty. Refinement across Sprints is a collaborative activity, not restricted to the Product Owner.",
+  "reference": "Scrum Guide 2020 - Empiricism / Product Backlog refinement"
+ },
+ {
+  "id": "D5-039",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Product Owner wants to know when a specific feature set will be ready. Which practice best supports an empirical answer?",
+  "options": [
+   "Using observed delivery data from recent Sprints together with the ordered Product Backlog to project a range, and revising it each Sprint",
+   "Asking each Developer for a personal estimate in hours and summing them",
+   "Dividing total remaining story points by the highest velocity achieved so far",
+   "Having the Scrum Master calculate the date from the original project plan"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Projections based on actual recent throughput plus the current backlog order give an evidence-based range that is updated as reality changes. Using the best-ever velocity produces an optimistic single date. Hour summation ignores the emergent nature of the work, and the Scrum Master does not own forecasting.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Empiricism"
+ },
+ {
+  "id": "D5-040",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Halfway through a funded release, measurements show that delivered features are barely used by customers. What should the Product Owner most likely do?",
+  "options": [
+   "Continue as planned because the budget was approved for the full release",
+   "Wait until the release is complete before evaluating usage",
+   "Ask the Developers to increase velocity to finish the release sooner",
+   "Use the evidence to re-order or abandon remaining items and pursue a more valuable direction, possibly reconsidering the Product Goal"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Outcome evidence is exactly what should drive adaptation of the Product Backlog and, if needed, the Product Goal; completing a plan that is not producing value wastes the remaining budget. Faster delivery of unused features increases waste rather than value. Deferring evaluation discards the advantage of frequent feedback.",
+  "reference": "Scrum Guide 2020 - Product Owner / Product Goal"
+ },
+ {
+  "id": "D5-041",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which are legitimate uses of a team's historical delivery data? (Choose two.)",
+  "options": [
+   "Comparing teams to decide which gets more funding",
+   "Informing a range-based release forecast for stakeholders",
+   "Helping the Developers judge how much they can take on in Sprint Planning",
+   "Proving to auditors that the team is working hard enough",
+   "Setting individual performance targets for each Developer"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "explanation": "Past performance helps a team size its own Sprint plan and helps the Product Owner project a realistic range for longer-term delivery. Using the same data for individual targets, cross-team funding decisions or effort policing turns a planning aid into a control mechanism that distorts behavior.",
+  "reference": "Scrum Guide 2020 - Sprint Planning / complementary practices"
+ },
+ {
+  "id": "D5-042",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement best contrasts the handling of change in Scrum with traditional change control?",
+  "options": [
+   "Scrum treats change as expected and incorporates it through continuous Product Backlog refinement and re-ordering, protecting only the current Sprint Goal",
+   "Scrum prevents change during a release to protect the plan",
+   "Scrum requires a change request form for every new Product Backlog item",
+   "Scrum allows any change at any time, including changes to the current Sprint Goal"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "In Scrum new information continuously updates the Product Backlog, while the Sprint Goal remains stable so the Developers can focus for the Sprint. Scrum does not use change request bureaucracy, and the Sprint Goal is not altered mid-Sprint, though scope within the Sprint can be renegotiated.",
+  "reference": "Scrum Guide 2020 - The Sprint / Product Backlog"
+ },
+ {
+  "id": "D5-043",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the commitment associated with the Product Backlog?",
+  "options": [
+   "The Sprint Goal",
+   "The Definition of Done",
+   "The Product Goal",
+   "The release plan"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Each artifact has a commitment: the Product Backlog has the Product Goal, the Sprint Backlog has the Sprint Goal, and the Increment has the Definition of Done. A release plan is not a Scrum element.",
+  "reference": "Scrum Guide 2020 - Scrum Artifacts"
+ },
+ {
+  "id": "D5-044",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A programme office wants Scrum Teams to report the variance between planned and actual story points each Sprint. What is the most useful coaching point?",
+  "options": [
+   "Estimate variance is the best measure of team maturity",
+   "Teams should pad estimates so that variance is always near zero",
+   "Variance against estimates measures prediction accuracy, not value; focusing on delivered outcomes and the ability to meet Sprint Goals is more informative",
+   "Story points should be converted to hours to reduce variance"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Chasing low estimate variance rewards padding and conservative behavior rather than value delivery, whereas Sprint Goal achievement and customer outcomes reflect real effectiveness. Estimates are an aid, not a contract. Converting units does not change what is being measured.",
+  "reference": "Scrum Guide 2020 - Sprint Goal / Empiricism"
+ },
+ {
+  "id": "D5-045",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A fixed-date regulatory deadline cannot move and the full desired scope will not fit. Which approach is most consistent with Scrum?",
+  "options": [
+   "Extend Sprints to reduce overhead and fit more work",
+   "Lower the Definition of Done temporarily so more items can be marked complete",
+   "Order the Product Backlog so the mandatory regulatory capability is delivered and validated first, then use remaining capacity for the next most valuable items",
+   "Add more teams in the final month to accelerate"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "With a fixed date the variable is scope, so delivering and validating the mandatory capability earliest removes the greatest risk. Weakening the Definition of Done creates undone work and hidden risk rather than progress. Longer Sprints reduce feedback and late staffing additions typically slow a team further.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Definition of Done"
+ },
+ {
+  "id": "D5-046",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which of the following are anti-patterns when applying Scrum? (Choose three.)",
+  "options": [
+   "Treating the Scrum Master as the person who writes all status reports",
+   "Refining Product Backlog items during the Sprint so upcoming work is understood",
+   "A Sprint Zero used to produce architecture and plans before any Increment",
+   "The Developers deciding among themselves how to turn backlog items into an Increment",
+   "A hardening Sprint at the end of a release to fix defects and finish testing"
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ],
+  "explanation": "Sprint Zero, hardening Sprints and the Scrum Master as reporter all contradict Scrum: every Sprint must produce a usable Increment, quality work belongs inside the Sprint via the Definition of Done, and the Scrum Master is a leader not a clerk. Ongoing refinement and Developer self-management are proper Scrum behaviors.",
+  "reference": "Scrum Guide 2020 - The Sprint / Scrum Master"
+ },
+ {
+  "id": "D5-047",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Stakeholders ask why the Scrum Team will not promise a precise delivery date for a new, unprecedented product. Which explanation is best?",
+  "options": [
+   "Because Scrum Teams are not allowed to discuss dates with stakeholders",
+   "Because estimating is a waste of time and should always be avoided",
+   "Because the Product Owner has not finished writing all requirements yet",
+   "Because the work is complex and much will only be learned by building, so a probabilistic range updated every Sprint is more honest and more useful than a false precise date"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Complexity means that unknowns are discovered through doing, so ranges refined by real delivery data serve decision-making better than a precise but unfounded date. Scrum encourages transparency with stakeholders about dates and risk. Estimation is not banned; over-reliance on it is the problem.",
+  "reference": "Scrum Guide 2020 - Empiricism"
+ },
+ {
+  "id": "D5-048",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which is a valid reason to cancel a Sprint?",
+  "options": [
+   "The Sprint Goal becomes obsolete",
+   "The Developers will not finish all forecasted Product Backlog items",
+   "A key Developer is unexpectedly absent",
+   "Velocity is lower than the Sprint before"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "A Sprint may be cancelled only if the Sprint Goal becomes obsolete, and only the Product Owner has the authority to do so. Unfinished items, absences or lower output are normal situations handled by re-planning within the Sprint. Cancelling a Sprint is traumatic and rare.",
+  "reference": "Scrum Guide 2020 - The Sprint"
+ },
+ {
+  "id": "D5-049",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A company funds projects annually and disbands teams when a project ends. A Scrum Master wants to improve delivery capability. Which change should they advocate for most strongly?",
+  "options": [
+   "Longer Sprints so that each project phase fits within one Sprint",
+   "More detailed annual estimates so that funding is more accurate",
+   "Stable, long-lived teams funded around products, so capability, domain knowledge and predictability accumulate instead of being destroyed",
+   "Assigning each Developer to several projects to maximize utilization"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum relies on stable Scrum Teams that improve over time; repeatedly disbanding them destroys learned capability and makes forecasting unreliable. High individual utilization across projects increases context switching and reduces flow. Longer Sprints and finer upfront estimates do not address the structural cause.",
+  "reference": "Scrum Guide 2020 - Scrum Team / Scrum Master"
+ },
+ {
+  "id": "D5-050",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which statements correctly distinguish output from outcome when measuring a product? (Choose two.)",
+  "options": [
+   "Reduction in customer time to complete a key task is an outcome measure",
+   "Lines of code written per Developer indicates product value",
+   "Number of features released in a quarter is an output measure",
+   "Outcome measures are only relevant to the Scrum Master",
+   "Story points completed per Sprint is the best proxy for customer value"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "explanation": "Outputs describe what was produced, such as feature counts, while outcomes describe the change experienced by users or the business, such as faster task completion. Story points and lines of code are effort or size proxies and say nothing about value. Outcome focus is primarily a Product Owner concern supported by the whole Scrum Team.",
+  "reference": "Scrum Guide 2020 - Product Owner / Evidence-Based Management"
+ },
+ {
+  "id": "D5-051",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "How does the Scrum Guide 2020 treat practices such as test-driven development, pair programming and continuous integration?",
+  "options": [
+   "They are mandatory elements of the Developers' accountability",
+   "They are forbidden because Scrum is a framework, not a methodology",
+   "They are complementary practices outside Scrum that teams may adopt to improve technical quality and the ability to deliver a done Increment",
+   "They may only be used by teams working on software products with more than ten Developers"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum is deliberately incomplete and does not prescribe engineering practices; techniques like TDD, pair programming and CI/CD sit outside the framework but often help teams meet a strong Definition of Done. They are neither required nor forbidden, and nothing in Scrum limits them by team size.",
+  "reference": "Scrum Guide 2020 - Scrum Definition / complementary practices"
+ },
+ {
+  "id": "D5-052",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A team cannot produce a done Increment each Sprint because regression testing takes two weeks manually. Which focus is most likely to help?",
+  "options": [
+   "Investing Sprint capacity in test automation and continuous integration so verification happens continuously",
+   "Adding a dedicated testing Sprint after every three Sprints",
+   "Removing testing from the Definition of Done until automation exists",
+   "Hiring more manual testers and keeping the same process"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Automating the regression suite and integrating continuously removes the structural barrier to finishing work inside the Sprint. Testing Sprints and a weakened Definition of Done simply hide undone work and accumulate risk. More manual testers scale the bottleneck rather than removing it.",
+  "reference": "Scrum Guide 2020 - Definition of Done / Increment"
+ },
+ {
+  "id": "D5-053",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which outcomes can continuous integration and automated testing support for a Scrum Team? (Choose two.)",
+  "options": [
+   "Faster feedback on whether the Increment still works after each change",
+   "Greater confidence that work can be considered done within the Sprint",
+   "Removal of the need for a Sprint Retrospective",
+   "Guaranteed defect-free software",
+   "Elimination of the need for a Definition of Done"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Continuous integration and automated tests shorten the feedback loop on quality and make it practical to finish work to the Definition of Done inside the Sprint. They do not replace the Definition of Done or the Retrospective, and no practice guarantees defect-free software.",
+  "reference": "Scrum Guide 2020 - Increment / complementary practices"
+ },
+ {
+  "id": "D5-054",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "The Product Owner pressures the Developers to skip refactoring so more features fit into the Sprint. What is the most appropriate Scrum Master action?",
+  "options": [
+   "Support the Product Owner, since they decide what is built",
+   "Tell the Developers to refactor secretly without mentioning it",
+   "Help both sides see the trade-off, coaching that technical quality is part of being able to deliver value sustainably and that the Developers own how the work is done",
+   "Add a separate technical debt backlog owned by the Scrum Master"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Product Owner decides what is built and in what order, but the Developers decide how, including the quality work needed to keep the product changeable. Making the cost of accumulating technical debt transparent lets both make better decisions. A hidden backlog or hidden work breaks transparency.",
+  "reference": "Scrum Guide 2020 - Developers / Product Owner"
+ },
+ {
+  "id": "D5-055",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "How should technical debt reduction work typically be handled in Scrum?",
+  "options": [
+   "Through a separate backlog invisible to stakeholders",
+   "By the Scrum Master, who schedules it between Sprints",
+   "Only during hardening Sprints before each release",
+   "Made transparent, for example as Product Backlog items or by being built into the Definition of Done, so trade-offs are visible and ordered"
+  ],
+  "correct": [
+   3
+  ],
+  "explanation": "Everything that affects the product's value and the team's ability to deliver should be transparent, so quality work is either represented in the Product Backlog or prevented by a strong Definition of Done. Hidden backlogs defeat transparency, hardening Sprints defer quality, and a new Sprint starts immediately after the previous one ends.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Transparency"
+ },
+ {
+  "id": "D5-056",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Two Developers want to adopt pair programming; a manager objects that it halves productivity. What is the most useful Scrum Master contribution?",
+  "options": [
+   "Mandate pair programming for the whole team",
+   "Agree with the manager and stop the experiment",
+   "Encourage the Developers to run it as an experiment and inspect the effect on quality, rework and knowledge sharing at the Retrospective",
+   "Escalate the manager's comment to senior leadership"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Developers decide their own working practices, and an empirical experiment inspected in the Retrospective settles the question with evidence rather than opinion. Mandating the practice removes self-management, and abandoning it on assertion alone ignores empiricism. Escalation is disproportionate.",
+  "reference": "Scrum Guide 2020 - Developers / Sprint Retrospective"
+ },
+ {
+  "id": "D5-057",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Who decides which engineering practices a Scrum Team uses to build the Increment?",
+  "options": [
+   "The Developers, who are accountable for creating a plan and for quality by adhering to the Definition of Done",
+   "The Scrum Master, as the process expert",
+   "The Product Owner, who owns the product",
+   "The organization's enterprise architects"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Developers are self-managing and decide how to turn Product Backlog items into an Increment, including technical practices, while adhering to the agreed Definition of Done. Neither the Scrum Master nor the Product Owner dictates technique, and organizational standards, if any, form part of the Definition of Done.",
+  "reference": "Scrum Guide 2020 - Developers"
+ },
+ {
+  "id": "D5-058",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A team delivers an Increment every Sprint but each release to production requires three days of manual deployment steps. What is the best framing for the Scrum Master?",
+  "options": [
+   "This is outside Scrum and therefore outside the Scrum Master's interest",
+   "The team should stop producing Increments until deployment is automated",
+   "This is an impediment to delivering value frequently; the Scrum Master should make its cost transparent and support investment in deployment automation",
+   "The Product Owner should simply release less often to reduce the cost"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Anything that delays getting a usable Increment into users' hands constrains value and feedback, so it belongs squarely in the Scrum Master's impediment work with the team and organization. Deployment automation is a complementary practice but the delay it addresses is a Scrum concern. Releasing less often reduces feedback and increases batch risk.",
+  "reference": "Scrum Guide 2020 - Increment / Scrum Master"
+ },
+ {
+  "id": "D5-059",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which facilitation behaviors help a Scrum Master run an effective Sprint Retrospective? (Choose three.)",
+  "options": [
+   "Ensuring quieter team members have the opportunity to contribute",
+   "Inviting managers so team members can be held accountable for mistakes",
+   "Presenting a list of improvements they have decided the team must adopt",
+   "Using data such as defects, cycle time or incidents to ground the discussion",
+   "Creating a safe environment where difficult topics can be raised"
+  ],
+  "correct": [
+   0,
+   3,
+   4
+  ],
+  "explanation": "Effective retrospective facilitation builds psychological safety, grounds discussion in evidence, and draws out all voices so the team itself identifies improvements. The Scrum Master facilitates rather than dictating improvements, and inviting managers to assign blame destroys the safety the event depends on.",
+  "reference": "Scrum Guide 2020 - Sprint Retrospective / Scrum Master"
+ },
+ {
+  "id": "D5-060",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "During a Retrospective, two Developers begin a personal argument that shuts down the discussion. What should the Scrum Master do?",
+  "options": [
+   "End the Retrospective immediately and reschedule for next Sprint",
+   "Decide who is right so the team can move on",
+   "Intervene to re-establish respect, help both articulate their underlying concerns, and refocus the group on the team's system and improvements",
+   "Report both Developers to their line manager"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Facilitating conflict means restoring a respectful environment and surfacing the real interests behind the positions so the team can address the issue productively. Deciding who is right removes the team's ownership, and ending the event abandons an improvement opportunity. Escalating to managers undermines trust and self-management.",
+  "reference": "Scrum Guide 2020 - Scrum Values / Sprint Retrospective"
+ },
+ {
+  "id": "D5-061",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team's Retrospectives produce the same improvement items Sprint after Sprint without change. What is the most helpful action?",
+  "options": [
+   "Stop holding Retrospectives since they are not working",
+   "Have the Scrum Master implement the improvements for the team",
+   "Help the team select one or two improvements, make them visible, and include at least one in the next Sprint Backlog so it actually gets done",
+   "Lengthen the Retrospective time-box to discuss more topics"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum suggests that the most impactful improvements be addressed as soon as possible, often by adding them to the next Sprint Backlog, which turns intentions into work that is actually done. Dropping the event or having the Scrum Master do everything removes team ownership. More discussion time without follow-through changes nothing.",
+  "reference": "Scrum Guide 2020 - Sprint Retrospective / Sprint Backlog"
+ },
+ {
+  "id": "D5-062",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which statement best describes the Scrum Master's facilitation of Scrum events?",
+  "options": [
+   "The Scrum Master must chair and lead every event personally",
+   "The Scrum Master ensures events take place, are positive and productive, and kept within the time-box, while the team may facilitate them",
+   "The Scrum Master attends only the Sprint Retrospective",
+   "The Scrum Master decides the outcome of each event"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Scrum Master ensures that all events happen and are positive, productive and within their time-boxes, but does not need to run each one or dictate outcomes. Mature teams often facilitate their own events. Outcomes belong to the accountable people and the team.",
+  "reference": "Scrum Guide 2020 - Scrum Master / Scrum Events"
+ },
+ {
+  "id": "D5-063",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Sprint Planning regularly runs far over its time-box because the items are poorly understood. What should the Scrum Master encourage?",
+  "options": [
+   "Removing the time-box for Sprint Planning",
+   "Continuous Product Backlog refinement during the Sprint so items are sufficiently understood before Sprint Planning",
+   "Letting the Product Owner plan the Sprint alone and inform the Developers",
+   "Introducing a Sprint Zero to refine the entire backlog"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Refinement is an ongoing activity that adds detail and order to Product Backlog items so Sprint Planning can be efficient and focused. Time-boxes are fixed maximums in Scrum and are not removed. Planning without the Developers removes their accountability, and Sprint Zero is an anti-pattern.",
+  "reference": "Scrum Guide 2020 - Product Backlog refinement / Sprint Planning"
+ },
+ {
+  "id": "D5-064",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "A Scrum Team works across three time zones. Which actions best support Scrum's empirical foundations? (Choose two.)",
+  "options": [
+   "Having each location hold its own Sprint Review with local stakeholders only",
+   "Allowing each location to define its own Definition of Done",
+   "Agreeing on overlapping working hours so the Developers can hold the Daily Scrum and collaborate",
+   "Keeping artifacts and the Increment radically transparent in tools accessible to everyone",
+   "Replacing all events with asynchronous written status updates"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "explanation": "Distributed teams still need real collaboration and a single shared view of reality, so overlapping hours for events and highly transparent shared artifacts are key enablers. Replacing events with status updates removes inspection and adaptation, and local Sprint Reviews or local Definitions of Done fragment transparency and quality.",
+  "reference": "Scrum Guide 2020 - Transparency / Scrum Events"
+ },
+ {
+  "id": "D5-065",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A fully remote Scrum Team reports that Daily Scrums have become a round of status reports to the Scrum Master. What is the best intervention?",
+  "options": [
+   "Cancel the Daily Scrum since remote teams communicate in chat anyway",
+   "Have the Scrum Master ask each person three questions in a fixed order",
+   "Coach the Developers to own the event, focusing on progress toward the Sprint Goal and adapting their plan, and consider the Scrum Master stepping back from attending",
+   "Require cameras on and extend the event to 30 minutes"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "The Daily Scrum is the Developers' event for inspecting progress toward the Sprint Goal and adapting the Sprint Backlog; when it becomes reporting to the Scrum Master, stepping back restores ownership. The Scrum Master participates as a peer only if actively working on Sprint Backlog items. Scripted questions and longer time-boxes do not change the dynamic.",
+  "reference": "Scrum Guide 2020 - Daily Scrum"
+ },
+ {
+  "id": "D5-066",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A distributed Scrum Team has Developers in one country and the Product Owner in another, with questions answered after a 24-hour delay. What is the most significant consequence?",
+  "options": [
+   "The Sprint length must be increased to eight weeks",
+   "Decisions and clarifications are delayed, reducing the team's ability to adapt within the Sprint and risking the Sprint Goal",
+   "The Developers must choose a local proxy Product Owner to decide on backlog items",
+   "The Definition of Done must be weakened to accommodate the delay"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Slow feedback from the Product Owner undermines daily adaptation and jeopardizes the Sprint Goal, which is why availability matters more than location. A proxy who makes decisions splits the Product Owner accountability. Longer Sprints and weaker quality standards treat the symptom and make empiricism worse.",
+  "reference": "Scrum Guide 2020 - Product Owner / Sprint Goal"
+ },
+ {
+  "id": "D5-067",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which approach best helps a Scrum Master resolve a disagreement between the Product Owner and the Developers about whether an item is done?",
+  "options": [
+   "Letting the Product Owner decide case by case what counts as done",
+   "Referring to the shared Definition of Done and, if it is ambiguous, facilitating the team to clarify it for future Sprints",
+   "Asking stakeholders to vote at the Sprint Review",
+   "Marking the item done and tracking the remainder as a defect"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Definition of Done provides the shared, transparent standard for when work is complete, so disputes are resolved by applying it and improving it where unclear. Ad hoc decisions or stakeholder votes destroy the consistency the Definition of Done exists to provide. Reclassifying unfinished work as a defect hides reality.",
+  "reference": "Scrum Guide 2020 - Definition of Done"
+ },
+ {
+  "id": "D5-068",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which Scrum Value most directly supports team members raising uncomfortable problems during a Retrospective?",
+  "options": [
+   "Focus",
+   "Courage",
+   "Commitment",
+   "Respect"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Courage is what enables Scrum Team members to do the right thing and work on tough problems, including naming difficult issues despite discomfort. Respect and Focus support how the team works together and where attention goes. Commitment concerns dedication to the goals of the Scrum Team.",
+  "reference": "Scrum Guide 2020 - Scrum Values"
+ },
+ {
+  "id": "D5-069",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which situations indicate that a Scrum Master should coach rather than directly solve a problem? (Choose two.)",
+  "options": [
+   "A required third-party licence has expired and must be purchased",
+   "A building access badge for a new Developer has not been issued",
+   "A server outage is blocking all builds and needs a vendor call",
+   "The Developers are unsure how to split a large Product Backlog item",
+   "The team repeatedly avoids discussing a recurring quality problem"
+  ],
+  "correct": [
+   3,
+   4
+  ],
+  "explanation": "Coaching builds the team's own capability, which is appropriate for skills such as splitting work and for team behaviors such as avoiding a difficult topic. Administrative or external obstacles like badges, licences and vendor outages are usually best removed directly or by engaging the right people so the Developers can keep working.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-070",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master facilitates a session where stakeholders with conflicting priorities must be heard before the Product Owner decides. What is the most appropriate facilitation goal?",
+  "options": [
+   "Reaching unanimous agreement among all stakeholders before proceeding",
+   "Ensuring each perspective and its underlying need is understood and transparent so the Product Owner can make an informed, accountable decision",
+   "Having the group vote, with the majority determining backlog order",
+   "Letting the Scrum Master determine the ordering based on what is fairest"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Facilitation aims to surface information and understanding; the Product Owner remains the single person accountable for Product Backlog ordering. Demanding unanimity stalls decisions, and voting or Scrum Master ordering transfers accountability away from the Product Owner.",
+  "reference": "Scrum Guide 2020 - Product Owner / Scrum Master"
+ },
+ {
+  "id": "D5-071",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A remote team's Sprint Review consists of a slide deck describing what was built. What should the Scrum Master suggest?",
+  "options": [
+   "Demonstrating the working Increment itself and inviting stakeholders to use it, then discussing what to do next",
+   "Pre-recording the slides to save time in the event",
+   "Replacing the Sprint Review with a written release note",
+   "Having only the Product Owner attend to represent the team"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Sprint Review exists to inspect the actual outcome of the Sprint and adapt the Product Backlog, which requires real working functionality rather than descriptions. Slides, recordings or release notes provide no reliable basis for inspection. The Scrum Team and stakeholders collaborate together in the event.",
+  "reference": "Scrum Guide 2020 - Sprint Review"
+ },
+ {
+  "id": "D5-072",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A newly formed distributed Scrum Team wants to spend the first two Sprints setting up tooling and architecture with no usable functionality. How should the Scrum Master respond?",
+  "options": [
+   "Approve it as a necessary Sprint Zero",
+   "Encourage them to deliver a thin end-to-end slice of real functionality in the first Sprint, building just enough infrastructure to support it",
+   "Tell them Scrum forbids any infrastructure work",
+   "Suggest they skip Sprint Reviews until functionality exists"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Every Sprint must produce a usable Increment, so infrastructure is built incrementally in service of a real slice of functionality rather than as a separate preparatory phase. Scrum does not forbid infrastructure work, it forbids Sprints that produce no value. Skipping Sprint Reviews removes an essential inspection point.",
+  "reference": "Scrum Guide 2020 - The Sprint / Increment"
+ },
+ {
+  "id": "D5-073",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Does Scrum require Scrum Team members to be located in the same physical office?",
+  "options": [
+   "Yes, co-location is mandatory in Scrum",
+   "No, but the team must still collaborate closely and hold all Scrum events, which is harder when distributed",
+   "Yes, except for the Product Owner",
+   "No, and distribution has no effect on the team's effectiveness"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Scrum does not prescribe location; it requires a cohesive, collaborative team that holds its events and produces a done Increment each Sprint. Distribution is permitted but adds communication challenges that the team must deliberately address. Pretending distribution is cost-free ignores real coordination effort.",
+  "reference": "Scrum Guide 2020 - Scrum Team / Scrum Events"
+ },
+ {
+  "id": "D5-074",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which conditions make it easier for a Scrum Team to deliver a done Increment every Sprint? (Choose three.)",
+  "options": [
+   "A dedicated stabilization phase after every release",
+   "Product Backlog items sliced small enough to be finished within a Sprint",
+   "Automated build, test and deployment pipelines",
+   "Separate teams for development and testing with formal handoffs",
+   "A clear, shared Definition of Done that includes all quality work"
+  ],
+  "correct": [
+   1,
+   2,
+   4
+  ],
+  "explanation": "A strong Definition of Done, automation that gives fast quality feedback, and small, finishable items all directly enable finishing work inside the Sprint. Separate testing teams introduce handoffs and queues, while stabilization phases move quality work outside the Sprint, both of which prevent a truly done Increment.",
+  "reference": "Scrum Guide 2020 - Definition of Done / Increment"
+ },
+ {
+  "id": "D5-075",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master observes that the Developers never challenge the Product Owner's decisions even when they foresee technical problems. What is the deepest concern?",
+  "options": [
+   "The Product Owner is exceeding their authority by ordering the Product Backlog",
+   "The team lacks the safety and courage needed for transparency, so risks stay hidden and inspection is based on incomplete information",
+   "The Developers should be formally allowed to veto Product Backlog items",
+   "The Scrum Master should start attending all Product Owner meetings as an observer"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Empiricism depends on transparency, and silence about foreseen risks means decisions are made on incomplete information; fostering courage and respect is core Scrum Master work. Ordering the Product Backlog is legitimately the Product Owner's accountability, so a formal veto is not the answer. Surveillance of meetings does not build safety.",
+  "reference": "Scrum Guide 2020 - Scrum Values / Transparency"
+ },
+ {
+  "id": "D5-076",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Which situation is an example of the 'Scrum Master as secretary' anti-pattern?",
+  "options": [
+   "The Scrum Master coaches the Developers on splitting Product Backlog items",
+   "The Scrum Master updates the task board and writes meeting notes on behalf of the Developers every day",
+   "The Scrum Master helps the Product Owner find techniques for Product Backlog ordering",
+   "The Scrum Master works with leadership to remove an organizational impediment"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Doing the Developers' administrative work removes their ownership of the Sprint Backlog and consumes the Scrum Master's capacity for coaching and organizational change. Coaching the Developers, helping the Product Owner and working with leadership are genuine expressions of the accountability.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-077",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "An organization measures its Scrum adoption by counting how many teams hold all the Scrum events. What is the main weakness of this measure?",
+  "options": [
+   "It measures process compliance rather than the outcomes Scrum is meant to produce, such as value delivered and faster feedback",
+   "It is impossible to count events accurately",
+   "Scrum events are optional, so counting them is meaningless",
+   "Only the Scrum Master is allowed to measure adoption"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "Holding events is necessary but not sufficient; the purpose of Scrum is to deliver value through empiricism, so adoption is better judged by outcomes like delivery frequency, quality and customer impact. The Scrum events are required elements of the framework, not optional, so dismissing them is also wrong.",
+  "reference": "Scrum Guide 2020 - Scrum Events / Evidence-Based Management"
+ },
+ {
+  "id": "D5-078",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Leadership asks which measures would tell them whether their product investment is paying off. Which combination best reflects evidence-based management thinking?",
+  "options": [
+   "Velocity, utilization and number of Sprints completed",
+   "Current value delivered to customers, the organization's ability to innovate, time to market, and unrealized value still available in the market",
+   "Defect counts and number of Product Backlog items refined per Sprint",
+   "Headcount per team and average story size"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Evidence-based management looks at value realized now, value still unrealized in the market, the speed of delivering new value, and the organization's capacity to innovate. Velocity, utilization, refinement counts and headcount describe activity or capacity, not value or market impact.",
+  "reference": "Scrum Guide 2020 - Empiricism / Evidence-Based Management"
+ },
+ {
+  "id": "D5-079",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team completes many Product Backlog items each Sprint, but customer satisfaction is falling. Which conclusion is most sound?",
+  "options": [
+   "The team should increase the number of items completed per Sprint",
+   "High output is not the same as valuable outcomes; the Product Owner should seek customer feedback and adapt the Product Backlog and Product Goal",
+   "The Definition of Done is too strict and should be relaxed",
+   "The Sprint length should be shortened so more items are completed"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Producing more features that customers do not value simply increases waste; the response is to inspect outcomes and adapt what is built. Weakening quality standards or compressing Sprints to boost throughput addresses the wrong variable. Output volume is not evidence of value.",
+  "reference": "Scrum Guide 2020 - Product Owner / Product Goal"
+ },
+ {
+  "id": "D5-080",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "Three months into an adoption, teams follow the events but managers still assign work to individuals and approve designs. What is the most accurate assessment?",
+  "options": [
+   "The teams are practising Scrum correctly, since all events occur",
+   "The organization has adopted the mechanics without the self-management Scrum depends on, so the benefits of empiricism will not materialize",
+   "Scrum does not apply to organizations with managers",
+   "The Scrum Master should take over work assignment from the managers"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Scrum Teams are self-managing and decide who does what and how, so external assignment and design approval hollow out the framework even when events are held. Scrum works in organizations with managers, but their role must shift to supporting rather than directing the work. The Scrum Master assigning work would repeat the same dysfunction.",
+  "reference": "Scrum Guide 2020 - Scrum Team / Developers"
+ },
+ {
+  "id": "D5-081",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "Why is a 'hardening Sprint' before release considered an anti-pattern?",
+  "options": [
+   "Because Sprints must all be the same length",
+   "Because the Product Owner cannot attend it",
+   "Because it means previous Increments were not actually done, hiding incomplete work and risk",
+   "Because it requires an additional Scrum Master"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "If stabilization and testing are needed after the fact, the earlier Increments did not meet the Definition of Done and transparency was false. The right response is to strengthen the Definition of Done and do the quality work inside each Sprint. The issue is undone work, not scheduling or staffing.",
+  "reference": "Scrum Guide 2020 - Definition of Done / Increment"
+ },
+ {
+  "id": "D5-082",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which behaviors suggest that a Product Owner has become a proxy rather than a true Product Owner? (Choose two.)",
+  "options": [
+   "They engage directly with customers to validate assumptions",
+   "They say no to a stakeholder request after weighing it against the Product Goal",
+   "They relay requirements from a business manager without authority to change priorities",
+   "They must obtain approval before changing the Product Backlog order",
+   "They involve the Developers in Product Backlog refinement"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "explanation": "A proxy passes messages and needs approval for decisions, which slows adaptation and breaks the single point of accountability for value. Declining requests, refining collaboratively with the Developers and talking to customers are all signs of a genuine Product Owner exercising their accountability.",
+  "reference": "Scrum Guide 2020 - Product Owner"
+ },
+ {
+  "id": "D5-083",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Master is asked to also act as the line manager who writes performance appraisals for the Developers. What is the main risk?",
+  "options": [
+   "The Scrum Master would have too little time for facilitation",
+   "Scrum explicitly forbids a Scrum Master from having any other role in the company",
+   "Team members may stop being open about problems and mistakes, reducing transparency and the effectiveness of Retrospectives",
+   "The Product Owner would lose the authority to order the Product Backlog"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Evaluative authority over team members chills openness, which is the foundation of inspection and honest Retrospectives. Scrum does not legislate HR structures, but the Scrum Master must consider how the combination affects safety and trust. Product Owner authority is unaffected.",
+  "reference": "Scrum Guide 2020 - Scrum Values / Scrum Master"
+ },
+ {
+  "id": "D5-084",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master wants to start an organizational change toward Scrum but has no formal authority. Which approach is most likely to succeed?",
+  "options": [
+   "Mandate Scrum practices and escalate non-compliance",
+   "Wait for an executive sponsor to drive the entire change",
+   "Start where there is willingness, make the results and remaining obstacles transparent, and use early evidence to build support more widely",
+   "Introduce the complete target operating model in one organization-wide launch"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Change through influence works best by producing visible evidence of improvement in a willing area and using it to earn broader sponsorship, which matches empirical, incremental change. Mandates breed compliance without belief, waiting forfeits agency, and big-bang rollouts remove the ability to inspect and adapt the change itself.",
+  "reference": "Scrum Guide 2020 - Scrum Master / Empiricism"
+ },
+ {
+  "id": "D5-085",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Which statement about the Sprint Backlog is correct when management wants visibility into daily progress?",
+  "options": [
+   "The Sprint Backlog belongs to the Developers, is highly visible, and is updated by them throughout the Sprint as more is learned",
+   "The Sprint Backlog must be approved by management before the Sprint starts",
+   "The Scrum Master maintains the Sprint Backlog for reporting purposes",
+   "The Sprint Backlog is private to the Developers and should not be visible to anyone else"
+  ],
+  "correct": [
+   0
+  ],
+  "explanation": "The Sprint Backlog is a highly visible, real-time picture of the work the Developers plan to do, owned and updated by them. Transparency means others can see it, but no one outside the Developers controls or approves it. The Scrum Master does not maintain it.",
+  "reference": "Scrum Guide 2020 - Sprint Backlog"
+ },
+ {
+  "id": "D5-086",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "After a serious production incident, leadership asks the Scrum Master for a root-cause report naming responsible individuals. What is the best response?",
+  "options": [
+   "Produce the report naming the Developers who made the changes",
+   "Decline to investigate because Scrum does not address incidents",
+   "Propose a blameless examination of the system and process that allowed the defect to reach production, and work with the team on concrete improvements",
+   "Tell leadership the Product Owner is solely accountable for the incident"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum treats the Scrum Team as collectively accountable and improves through inspecting the process, so a blameless systemic analysis produces real improvement while naming individuals destroys safety and transparency. Refusing to engage ignores a genuine organizational concern. Singling out the Product Owner misassigns accountability for quality.",
+  "reference": "Scrum Guide 2020 - Scrum Team / Sprint Retrospective"
+ },
+ {
+  "id": "D5-087",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What does it mean that the Scrum Team is cross-functional?",
+  "options": [
+   "Every member can do every task equally well",
+   "The members collectively have all the skills needed to create value each Sprint",
+   "The team contains at least one person from each department",
+   "Team members rotate between teams every Sprint"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Cross-functional means the team collectively possesses the skills required to create a valuable Increment without depending on others. It does not require identical skills in every member, departmental representation, or rotation, which would in fact harm team stability.",
+  "reference": "Scrum Guide 2020 - Scrum Team"
+ },
+ {
+  "id": "D5-088",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "A Scrum Team is repeatedly pulled into unplanned production support, endangering Sprint Goals. What is the most constructive approach?",
+  "options": [
+   "Ignore support requests until the Sprint ends",
+   "Make the volume and impact of support work transparent, agree with the Product Owner how it is accounted for when forecasting, and address the root causes of the defects",
+   "Have the Scrum Master handle all support requests personally",
+   "Stop setting a Sprint Goal so interruptions no longer matter"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Transparency about interrupt work lets the Product Owner and Developers plan realistically, while reducing the defect source attacks the cause rather than the symptom. Ignoring real customer problems is not viable and the Scrum Master absorbing the work hides the issue. Every Sprint requires a Sprint Goal, which gives the team focus.",
+  "reference": "Scrum Guide 2020 - Sprint Goal / Transparency"
+ },
+ {
+  "id": "D5-089",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "Which signals indicate that an organization's Scrum adoption is producing real benefits rather than cosmetic change? (Choose three.)",
+  "options": [
+   "Every team reports a rising velocity trend",
+   "The number of documented processes has increased",
+   "Usable Increments reach real users more frequently than before",
+   "Teams decide how to do their work without external assignment",
+   "Decisions are increasingly based on observed outcomes rather than opinion"
+  ],
+  "correct": [
+   2,
+   3,
+   4
+  ],
+  "explanation": "Frequent delivery to users, genuine self-management and decisions grounded in evidence are the behavioral changes that produce Scrum's benefits. Rising velocity is a team-relative, non-Scrum number that can be inflated, and more documentation is unrelated to value delivery.",
+  "reference": "Scrum Guide 2020 - Empiricism / Scrum Team"
+ },
+ {
+  "id": "D5-090",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "The Developers want to stop using story points and instead forecast using the number of items completed per Sprint. How should the Scrum Master react?",
+  "options": [
+   "Forbid it, because Scrum requires story point estimation",
+   "Support it as an experiment, since Scrum does not prescribe an estimation technique, as long as items still have a size and the team can plan and forecast",
+   "Require them to keep using story points for management reporting",
+   "Allow it only if the Product Owner stops asking about dates"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Scrum requires Product Backlog items to have a size attribute determined by the Developers, but prescribes no technique; counting small, similarly sized items is a legitimate flow-based alternative. The Developers choose how they plan, so mandating a method for reporting convenience undermines self-management. Forecasting remains possible without points.",
+  "reference": "Scrum Guide 2020 - Product Backlog / Developers"
+ },
+ {
+  "id": "D5-091",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "An organization wants one Scrum Master to serve twelve teams part-time to save cost. What is the most important point for the Scrum Master to make?",
+  "options": [
+   "Scrum requires exactly one full-time Scrum Master per team",
+   "The Scrum Master should instead be made a line manager over the teams",
+   "At that ratio the Scrum Master can only act as an event organizer, not as a coach and change agent, so team effectiveness and the organizational improvements Scrum needs will not be achieved",
+   "Twelve teams are fine as long as each team has its own Product Owner"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Scrum does not set a numeric ratio, but the Scrum Master is accountable for the Scrum Team's effectiveness and for organizational change, which requires real presence and depth of engagement. Spread too thin, the accountability degrades into scheduling. Making the Scrum Master a manager would conflict with fostering self-management.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-092",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "An organization requires a separate QA department to test each Increment for two weeks after the Sprint ends before anything can be released. What should the Scrum Master do?",
+  "options": [
+   "Accept it as an organizational constraint and plan a testing Sprint after every three Sprints",
+   "Work with the Scrum Team and the organization to fold the required testing into the Definition of Done so every Increment is usable at Sprint end",
+   "Ask the Product Owner to stop calling the output an Increment until QA has signed it off",
+   "Lengthen the Sprint to six weeks so the QA cycle fits inside it"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "An Increment must meet the Definition of Done and be usable when it is created, so externally mandated quality work belongs inside the Definition of Done and inside the Sprint. Hardening or testing Sprints, redefining the Increment, and stretching the Sprint to absorb a handoff all preserve the dysfunction instead of removing the impediment, which is exactly what the Scrum Master should help the organization change.",
+  "reference": "Scrum Guide 2020 - Increment / Definition of Done"
+ },
+ {
+  "id": "D5-093",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "multiple",
+  "question": "Which actions by a Scrum Master support stakeholders during a Scrum adoption? (Choose two.)",
+  "options": [
+   "Requiring stakeholders to submit all requests through a formal change control board",
+   "Attending all stakeholder meetings in place of the Product Owner",
+   "Promising stakeholders fixed scope on fixed dates to reduce anxiety",
+   "Removing barriers between stakeholders and the Scrum Team",
+   "Helping stakeholders understand empirical product planning and what they can expect from each Sprint"
+  ],
+  "correct": [
+   3,
+   4
+  ],
+  "explanation": "Scrum Masters serve the organization by coaching stakeholders in empirical approaches and by removing barriers between them and the Scrum Teams. False certainty and heavyweight change control recreate the problems Scrum addresses, and substituting for the Product Owner weakens that accountability.",
+  "reference": "Scrum Guide 2020 - Scrum Master"
+ },
+ {
+  "id": "D5-094",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Team is asked to adopt a mandated organizational process that conflicts with its Definition of Done. How should the Scrum Master proceed?",
+  "options": [
+   "Instruct the team to quietly ignore the mandated process",
+   "Have the team comply and accept the resulting undone work",
+   "Make the conflict and its consequences transparent to the people who own the process and work with them toward a resolution that preserves a releasable Increment",
+   "Ask the Product Owner to approve lowering the Definition of Done"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Conflicts between organizational standards and the ability to produce a done Increment are impediments to be surfaced and resolved with the owners of the process. Silent non-compliance breaks transparency, while accepting undone work or lowering quality standards creates hidden risk. Where organizational standards exist, the Definition of Done must meet or exceed them rather than contradict them.",
+  "reference": "Scrum Guide 2020 - Definition of Done / Scrum Master"
+ },
+ {
+  "id": "D5-095",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "During Sprint Planning the Developers realize a critical dependency on another team will not be resolved this Sprint. What is the most appropriate action?",
+  "options": [
+   "Plan the work anyway and hope the dependency clears",
+   "Craft a Sprint Goal and select work that can be completed without the dependency, make the impediment transparent, and have the Scrum Master help resolve it",
+   "Cancel the Sprint before it starts",
+   "Ask the Product Owner to order the dependent item lower permanently"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Sprint Planning should produce a feasible Sprint Goal and a realistic plan, so the team selects work it can actually complete while the blocking dependency is made visible and pursued. Planning on hope endangers the Sprint Goal. Permanently deprioritizing valuable work or cancelling the Sprint avoids rather than resolves the impediment.",
+  "reference": "Scrum Guide 2020 - Sprint Planning / Scrum Master"
+ },
+ {
+  "id": "D5-096",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A large programme replaces its phase gates with Sprint Reviews, but each Review still ends with a formal go/no-go decision by a governance board that overrules the Product Owner. What is the most significant issue?",
+  "options": [
+   "The Sprint Review is being held too frequently",
+   "The Product Owner's decisions are not respected, so the single point of accountability for value is undermined and adaptation slows",
+   "Governance boards may never see an Increment",
+   "The Sprint Review should not include stakeholders at all"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "Scrum requires the whole organization to respect the Product Owner's decisions; a board overruling them reinstates the gate culture that blocks rapid adaptation. Stakeholders, including governance representatives, are welcome at the Sprint Review to inspect and collaborate. The frequency of Reviews is set by the Sprint cadence and is not the problem.",
+  "reference": "Scrum Guide 2020 - Product Owner / Sprint Review"
+ },
+ {
+  "id": "D5-097",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "medium",
+  "type": "single",
+  "question": "Two Scrum Teams repeatedly build conflicting implementations of the same capability. Which response fits Scrum best?",
+  "options": [
+   "Appoint a lead architect to approve all designs before coding",
+   "Have the Product Owner assign exclusive ownership of code areas to each team",
+   "Facilitate direct collaboration between the Developers of both teams, including shared standards in the Definition of Done and frequent integration to reveal conflicts early",
+   "Merge the two teams into one team of eighteen Developers"
+  ],
+  "correct": [
+   2
+  ],
+  "explanation": "Self-managing Developers coordinate directly, and shared standards plus continuous integration expose conflicts while they are cheap to resolve. Design approval by an architect creates a bottleneck and reduces team accountability, and code ownership boundaries create component silos. A team of eighteen exceeds the guidance of typically ten or fewer people.",
+  "reference": "Scrum Guide 2020 - Developers / Definition of Done"
+ },
+ {
+  "id": "D5-098",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "easy",
+  "type": "single",
+  "question": "What is the purpose of the Sprint Goal when stakeholders request changes mid-Sprint?",
+  "options": [
+   "It prevents any discussion with stakeholders during the Sprint",
+   "It creates coherence and focus, and scope may be renegotiated with the Product Owner as long as the Sprint Goal is not endangered",
+   "It locks the Sprint Backlog so no changes are possible",
+   "It allows the Developers to refuse all feedback until the Sprint Review"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "The Sprint Goal gives the Developers flexibility in how they work while keeping them focused on a single objective; scope can be clarified and renegotiated with the Product Owner without endangering the Goal. It neither freezes the Sprint Backlog nor forbids collaboration or feedback.",
+  "reference": "Scrum Guide 2020 - Sprint Goal"
+ },
+ {
+  "id": "D5-099",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "multiple",
+  "question": "An organization running eight teams on one product wants to improve its ability to release. Which changes most directly address that goal? (Choose two.)",
+  "options": [
+   "Integrating all teams' work continuously so an integrated Increment exists at least every Sprint",
+   "Strengthening the shared Definition of Done so that releasable means releasable for all teams",
+   "Introducing a weekly cross-team status meeting for managers",
+   "Having each team report velocity to a central dashboard",
+   "Creating a separate release management team that owns final testing"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "explanation": "Continuous integration across teams and a shared, strong Definition of Done are what make a genuinely releasable product Increment possible at any time. Status meetings and velocity dashboards add reporting without changing delivery capability, and a separate release team reintroduces handoffs and undone work.",
+  "reference": "Scrum Guide 2020 - Increment / Definition of Done"
+ },
+ {
+  "id": "D5-100",
+  "domain": "Applying Scrum in Practice",
+  "difficulty": "hard",
+  "type": "single",
+  "question": "A Scrum Master has removed the same impediment for a team three Sprints in a row. What should they most likely do next?",
+  "options": [
+   "Continue removing it each Sprint as part of their service to the team",
+   "Treat the recurrence as a signal of a systemic cause, help the team make it transparent and address the underlying condition, building the team's capability to handle it",
+   "Add the impediment to the Product Backlog so the Product Owner can order it",
+   "Accept it as a normal cost of working in a large organization"
+  ],
+  "correct": [
+   1
+  ],
+  "explanation": "A recurring impediment indicates a systemic cause, and the Scrum Master's deeper service is to change the system and grow the team's ability to deal with such issues rather than repeatedly applying the same fix. Impediments are not Product Backlog items for the Product Owner to order. Accepting the waste abandons the improvement accountability.",
+  "reference": "Scrum Guide 2020 - Scrum Master / Sprint Retrospective"
+ }
+]
